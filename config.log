@@ -1,0 +1,1647 @@
+# project source-engine (1.0) configured on Wed Oct 20 19:39:22 2021 by
+# waf 2.0.22 (abi 20, python 20710f0 on linux2)
+# using ./waf configure -T debug
+#
+-------------------------------------------------------
+Setting top to
+/home/pi/Downloads/source-engine
+-------------------------------------------------------
+Setting out to
+/home/pi/Downloads/source-engine/build
+-------------------------------------------------------
+Checking for 'gcc' (C compiler)
+find program=['gcc', 'cc'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/local/games', '/usr/games'] var='CC' -> ['/usr/bin/gcc']
+['/usr/bin/gcc', '-dM', '-E', '-']
+out: #define __DBL_MIN_EXP__ (-1021)
+#define __HQ_FBIT__ 15
+#define __FLT32X_MAX_EXP__ 1024
+#define __UINT_LEAST16_MAX__ 0xffff
+#define __ARM_SIZEOF_WCHAR_T 4
+#define __ATOMIC_ACQUIRE 2
+#define __SFRACT_IBIT__ 0
+#define __FLT_MIN__ 1.1754943508222875e-38F
+#define __GCC_IEC_559_COMPLEX 2
+#define __UFRACT_MAX__ 0XFFFFP-16UR
+#define __UINT_LEAST8_TYPE__ unsigned char
+#define __DQ_FBIT__ 63
+#define __INTMAX_C(c) c ## LL
+#define __ARM_FEATURE_SAT 1
+#define __ULFRACT_FBIT__ 32
+#define __SACCUM_EPSILON__ 0x1P-7HK
+#define __CHAR_BIT__ 8
+#define __USQ_IBIT__ 0
+#define __UINT8_MAX__ 0xff
+#define __ACCUM_FBIT__ 15
+#define __WINT_MAX__ 0xffffffffU
+#define __FLT32_MIN_EXP__ (-125)
+#define __USFRACT_FBIT__ 8
+#define __ORDER_LITTLE_ENDIAN__ 1234
+#define __SIZE_MAX__ 0xffffffffU
+#define __ARM_ARCH_ISA_ARM 1
+#define __WCHAR_MAX__ 0xffffffffU
+#define __LACCUM_IBIT__ 32
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 1
+#define __DBL_DENORM_MIN__ ((double)4.9406564584124654e-324L)
+#define __GCC_ATOMIC_CHAR_LOCK_FREE 1
+#define __GCC_IEC_559 2
+#define __FLT32X_DECIMAL_DIG__ 17
+#define __FLT_EVAL_METHOD__ 0
+#define __unix__ 1
+#define __LLACCUM_MAX__ 0X7FFFFFFFFFFFFFFFP-31LLK
+#define __FLT64_DECIMAL_DIG__ 17
+#define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 2
+#define __FRACT_FBIT__ 15
+#define __UINT_FAST64_MAX__ 0xffffffffffffffffULL
+#define __SIG_ATOMIC_TYPE__ int
+#define __UACCUM_FBIT__ 16
+#define __DBL_MIN_10_EXP__ (-307)
+#define __FINITE_MATH_ONLY__ 0
+#define __ARMEL__ 1
+#define __ARM_FEATURE_UNALIGNED 1
+#define __LFRACT_IBIT__ 0
+#define __GNUC_PATCHLEVEL__ 0
+#define __FLT32_HAS_DENORM__ 1
+#define __LFRACT_MAX__ 0X7FFFFFFFP-31LR
+#define __UINT_FAST8_MAX__ 0xff
+#define __has_include(STR) __has_include__(STR)
+#define __DEC64_MAX_EXP__ 385
+#define __INT8_C(c) c
+#define __INT_LEAST8_WIDTH__ 8
+#define __UINT_LEAST64_MAX__ 0xffffffffffffffffULL
+#define __SA_FBIT__ 15
+#define __SHRT_MAX__ 0x7fff
+#define __LDBL_MAX__ 1.7976931348623157e+308L
+#define __FRACT_MAX__ 0X7FFFP-15R
+#define __UFRACT_FBIT__ 16
+#define __ARM_FP 12
+#define __UFRACT_MIN__ 0.0UR
+#define __UINT_LEAST8_MAX__ 0xff
+#define __GCC_ATOMIC_BOOL_LOCK_FREE 1
+#define __UINTMAX_TYPE__ long long unsigned int
+#define __LLFRACT_EPSILON__ 0x1P-63LLR
+#define __linux 1
+#define __DEC32_EPSILON__ 1E-6DF
+#define __FLT_EVAL_METHOD_TS_18661_3__ 0
+#define __CHAR_UNSIGNED__ 1
+#define __UINT32_MAX__ 0xffffffffU
+#define __ULFRACT_MAX__ 0XFFFFFFFFP-32ULR
+#define __TA_IBIT__ 64
+#define __LDBL_MAX_EXP__ 1024
+#define __WINT_MIN__ 0U
+#define __linux__ 1
+#define __INT_LEAST16_WIDTH__ 16
+#define __ULLFRACT_MIN__ 0.0ULLR
+#define __SCHAR_MAX__ 0x7f
+#define __WCHAR_MIN__ 0U
+#define __INT64_C(c) c ## LL
+#define __DBL_DIG__ 15
+#define __GCC_ATOMIC_POINTER_LOCK_FREE 2
+#define __LLACCUM_MIN__ (-0X1P31LLK-0X1P31LLK)
+#define __SIZEOF_INT__ 4
+#define __SIZEOF_POINTER__ 4
+#define __USACCUM_IBIT__ 8
+#define __USER_LABEL_PREFIX__ 
+#define __STDC_HOSTED__ 1
+#define __LDBL_HAS_INFINITY__ 1
+#define __LFRACT_MIN__ (-0.5LR-0.5LR)
+#define __HA_IBIT__ 8
+#define __FLT32_DIG__ 6
+#define __TQ_IBIT__ 0
+#define __FLT_EPSILON__ 1.1920928955078125e-7F
+#define __APCS_32__ 1
+#define __SHRT_WIDTH__ 16
+#define __USFRACT_IBIT__ 0
+#define __LDBL_MIN__ 2.2250738585072014e-308L
+#define __STDC_UTF_16__ 1
+#define __FRACT_MIN__ (-0.5R-0.5R)
+#define __DEC32_MAX__ 9.999999E96DF
+#define __DA_IBIT__ 32
+#define __ARM_SIZEOF_MINIMAL_ENUM 4
+#define __FLT32X_HAS_INFINITY__ 1
+#define __INT32_MAX__ 0x7fffffff
+#define __UQQ_FBIT__ 8
+#define __INT_WIDTH__ 32
+#define __SIZEOF_LONG__ 4
+#define __UACCUM_MAX__ 0XFFFFFFFFP-16UK
+#define __STDC_IEC_559__ 1
+#define __STDC_ISO_10646__ 201706L
+#define __UINT16_C(c) c
+#define __PTRDIFF_WIDTH__ 32
+#define __DECIMAL_DIG__ 17
+#define __LFRACT_EPSILON__ 0x1P-31LR
+#define __FLT64_EPSILON__ 2.2204460492503131e-16F64
+#define __ULFRACT_MIN__ 0.0ULR
+#define __gnu_linux__ 1
+#define __INTMAX_WIDTH__ 64
+#define __has_include_next(STR) __has_include_next__(STR)
+#define __ARM_PCS_VFP 1
+#define __LDBL_HAS_QUIET_NAN__ 1
+#define __ULACCUM_IBIT__ 32
+#define __FLT64_MANT_DIG__ 53
+#define __UACCUM_EPSILON__ 0x1P-16UK
+#define __GNUC__ 8
+#define __ULLACCUM_MAX__ 0XFFFFFFFFFFFFFFFFP-32ULLK
+#define __HQ_IBIT__ 0
+#define __FLT_HAS_DENORM__ 1
+#define __SIZEOF_LONG_DOUBLE__ 8
+#define __BIGGEST_ALIGNMENT__ 8
+#define __FLT64_MAX_10_EXP__ 308
+#define __GNUC_STDC_INLINE__ 1
+#define __DQ_IBIT__ 0
+#define __DBL_MAX__ ((double)1.7976931348623157e+308L)
+#define __ULFRACT_IBIT__ 0
+#define __INT_FAST32_MAX__ 0x7fffffff
+#define __DBL_HAS_INFINITY__ 1
+#define __ACCUM_IBIT__ 16
+#define __DEC32_MIN_EXP__ (-94)
+#define __THUMB_INTERWORK__ 1
+#define __INTPTR_WIDTH__ 32
+#define __LACCUM_MAX__ 0X7FFFFFFFFFFFFFFFP-31LK
+#define __FLT32X_HAS_DENORM__ 1
+#define __INT_FAST16_TYPE__ int
+#define __LDBL_HAS_DENORM__ 1
+#define __ARM_FEATURE_LDREX 4
+#define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
+#define __INT_LEAST32_MAX__ 0x7fffffff
+#define __DEC32_MIN__ 1E-95DF
+#define __ACCUM_MAX__ 0X7FFFFFFFP-15K
+#define __DBL_MAX_EXP__ 1024
+#define __USACCUM_EPSILON__ 0x1P-8UHK
+#define __WCHAR_WIDTH__ 32
+#define __FLT32_MAX__ 3.4028234663852886e+38F32
+#define __DEC128_EPSILON__ 1E-33DL
+#define __SFRACT_MAX__ 0X7FP-7HR
+#define __FRACT_IBIT__ 0
+#define __PTRDIFF_MAX__ 0x7fffffff
+#define __UACCUM_MIN__ 0.0UK
+#define __UACCUM_IBIT__ 16
+#define __FLT32_HAS_QUIET_NAN__ 1
+#define __LONG_LONG_MAX__ 0x7fffffffffffffffLL
+#define __SIZEOF_SIZE_T__ 4
+#define __ULACCUM_MAX__ 0XFFFFFFFFFFFFFFFFP-32ULK
+#define __SIZEOF_WINT_T__ 4
+#define __LONG_LONG_WIDTH__ 64
+#define __FLT32_MAX_EXP__ 128
+#define __SA_IBIT__ 16
+#define __ULLACCUM_MIN__ 0.0ULLK
+#define __GXX_ABI_VERSION 1013
+#define __UTA_FBIT__ 64
+#define __FLT_MIN_EXP__ (-125)
+#define __USFRACT_MAX__ 0XFFP-8UHR
+#define __UFRACT_IBIT__ 0
+#define __ARM_FEATURE_QBIT 1
+#define __INT_FAST64_TYPE__ long long int
+#define __FLT64_DENORM_MIN__ 4.9406564584124654e-324F64
+#define __DBL_MIN__ ((double)2.2250738585072014e-308L)
+#define __FLT32X_EPSILON__ 2.2204460492503131e-16F32x
+#define __FLT64_MIN_EXP__ (-1021)
+#define __LACCUM_MIN__ (-0X1P31LK-0X1P31LK)
+#define __ULLACCUM_FBIT__ 32
+#define __GXX_TYPEINFO_EQUALITY_INLINE 0
+#define __FLT64_MIN_10_EXP__ (-307)
+#define __ULLFRACT_EPSILON__ 0x1P-64ULLR
+#define __DEC128_MIN__ 1E-6143DL
+#define __REGISTER_PREFIX__ 
+#define __UINT16_MAX__ 0xffff
+#define __DBL_HAS_DENORM__ 1
+#define __ACCUM_MIN__ (-0X1P15K-0X1P15K)
+#define __SQ_IBIT__ 0
+#define __FLT32_MIN__ 1.1754943508222875e-38F32
+#define __UINT8_TYPE__ unsigned char
+#define __UHA_FBIT__ 8
+#define __NO_INLINE__ 1
+#define __SFRACT_MIN__ (-0.5HR-0.5HR)
+#define __UTQ_FBIT__ 128
+#define __FLT_MANT_DIG__ 24
+#define __LDBL_DECIMAL_DIG__ 17
+#define __VERSION__ "8.3.0"
+#define __UINT64_C(c) c ## ULL
+#define __ULLFRACT_FBIT__ 64
+#define __FRACT_EPSILON__ 0x1P-15R
+#define __ULACCUM_MIN__ 0.0ULK
+#define _STDC_PREDEF_H 1
+#define __UDA_FBIT__ 32
+#define __LLACCUM_EPSILON__ 0x1P-31LLK
+#define __GCC_ATOMIC_INT_LOCK_FREE 2
+#define __FLT32_MANT_DIG__ 24
+#define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
+#define __USFRACT_MIN__ 0.0UHR
+#define __UQQ_IBIT__ 0
+#define __STDC_IEC_559_COMPLEX__ 1
+#define __SCHAR_WIDTH__ 8
+#define __INT32_C(c) c
+#define __DEC64_EPSILON__ 1E-15DD
+#define __ORDER_PDP_ENDIAN__ 3412
+#define __DEC128_MIN_EXP__ (-6142)
+#define __UHQ_FBIT__ 16
+#define __LLACCUM_FBIT__ 31
+#define __FLT32_MAX_10_EXP__ 38
+#define __INT_FAST32_TYPE__ int
+#define __UINT_LEAST16_TYPE__ short unsigned int
+#define unix 1
+#define __INT16_MAX__ 0x7fff
+#define __SIZE_TYPE__ unsigned int
+#define __UINT64_MAX__ 0xffffffffffffffffULL
+#define __UDQ_FBIT__ 64
+#define __INT8_TYPE__ signed char
+#define __ELF__ 1
+#define __ULFRACT_EPSILON__ 0x1P-32ULR
+#define __LLFRACT_FBIT__ 63
+#define __FLT_RADIX__ 2
+#define __INT_LEAST16_TYPE__ short int
+#define __LDBL_EPSILON__ 2.2204460492503131e-16L
+#define __UINTMAX_C(c) c ## ULL
+#define __SACCUM_MAX__ 0X7FFFP-7HK
+#define __SIG_ATOMIC_MAX__ 0x7fffffff
+#define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 2
+#define __VFP_FP__ 1
+#define __SIZEOF_PTRDIFF_T__ 4
+#define __FLT32X_MANT_DIG__ 53
+#define __LACCUM_EPSILON__ 0x1P-31LK
+#define __FLT32X_MIN_EXP__ (-1021)
+#define __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF
+#define __INT_FAST16_MAX__ 0x7fffffff
+#define __ARM_ARCH_6__ 1
+#define __FLT64_DIG__ 15
+#define __UINT_FAST32_MAX__ 0xffffffffU
+#define __UINT_LEAST64_TYPE__ long long unsigned int
+#define __USACCUM_MAX__ 0XFFFFP-8UHK
+#define __SFRACT_EPSILON__ 0x1P-7HR
+#define __FLT_HAS_QUIET_NAN__ 1
+#define __FLT_MAX_10_EXP__ 38
+#define __LONG_MAX__ 0x7fffffffL
+#define __DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000000000001E-6143DL
+#define __FLT_HAS_INFINITY__ 1
+#define __unix 1
+#define __USA_FBIT__ 16
+#define __UINT_FAST16_TYPE__ unsigned int
+#define __DEC64_MAX__ 9.999999999999999E384DD
+#define __ARM_32BIT_STATE 1
+#define __INT_FAST32_WIDTH__ 32
+#define __CHAR16_TYPE__ short unsigned int
+#define __PRAGMA_REDEFINE_EXTNAME 1
+#define __SIZE_WIDTH__ 32
+#define __INT_LEAST16_MAX__ 0x7fff
+#define __DEC64_MANT_DIG__ 16
+#define __INT64_MAX__ 0x7fffffffffffffffLL
+#define __UINT_LEAST32_MAX__ 0xffffffffU
+#define __SACCUM_FBIT__ 7
+#define __FLT32_DENORM_MIN__ 1.4012984643248171e-45F32
+#define __GCC_ATOMIC_LONG_LOCK_FREE 2
+#define __SIG_ATOMIC_WIDTH__ 32
+#define __INT_LEAST64_TYPE__ long long int
+#define __ARM_FEATURE_CLZ 1
+#define __INT16_TYPE__ short int
+#define __INT_LEAST8_TYPE__ signed char
+#define __STDC_VERSION__ 201710L
+#define __SQ_FBIT__ 31
+#define __DEC32_MAX_EXP__ 97
+#define __ARM_ARCH_ISA_THUMB 1
+#define __INT_FAST8_MAX__ 0x7f
+#define __ARM_ARCH 6
+#define __INTPTR_MAX__ 0x7fffffff
+#define __QQ_FBIT__ 7
+#define linux 1
+#define __UTA_IBIT__ 64
+#define __FLT64_HAS_QUIET_NAN__ 1
+#define __FLT32_MIN_10_EXP__ (-37)
+#define __FLT32X_DIG__ 15
+#define __LDBL_MANT_DIG__ 53
+#define __SFRACT_FBIT__ 7
+#define __SACCUM_MIN__ (-0X1P7HK-0X1P7HK)
+#define __DBL_HAS_QUIET_NAN__ 1
+#define __FLT64_HAS_INFINITY__ 1
+#define __SIG_ATOMIC_MIN__ (-__SIG_ATOMIC_MAX__ - 1)
+#define __INTPTR_TYPE__ int
+#define __UINT16_TYPE__ short unsigned int
+#define __WCHAR_TYPE__ unsigned int
+#define __SIZEOF_FLOAT__ 4
+#define __USQ_FBIT__ 32
+#define __UINTPTR_MAX__ 0xffffffffU
+#define __INT_FAST64_WIDTH__ 64
+#define __DEC64_MIN_EXP__ (-382)
+#define __ULLACCUM_IBIT__ 32
+#define __FLT32_DECIMAL_DIG__ 9
+#define __INT_FAST64_MAX__ 0x7fffffffffffffffLL
+#define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
+#define __FLT_DIG__ 6
+#define __FLT32_HAS_INFINITY__ 1
+#define __UINT_FAST64_TYPE__ long long unsigned int
+#define __INT_MAX__ 0x7fffffff
+#define __LACCUM_FBIT__ 31
+#define __USACCUM_MIN__ 0.0UHK
+#define __UHA_IBIT__ 8
+#define __INT64_TYPE__ long long int
+#define __FLT_MAX_EXP__ 128
+#define __UTQ_IBIT__ 0
+#define __DBL_MANT_DIG__ 53
+#define __INT_LEAST64_MAX__ 0x7fffffffffffffffLL
+#define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 1
+#define __DEC64_MIN__ 1E-383DD
+#define __WINT_TYPE__ unsigned int
+#define __UINT_LEAST32_TYPE__ unsigned int
+#define __SIZEOF_SHORT__ 2
+#define __ULLFRACT_IBIT__ 0
+#define __LDBL_MIN_EXP__ (-1021)
+#define __arm__ 1
+#define __FLT64_MAX__ 1.7976931348623157e+308F64
+#define __UDA_IBIT__ 32
+#define __WINT_WIDTH__ 32
+#define __INT_LEAST8_MAX__ 0x7f
+#define __FLT32X_MAX_10_EXP__ 308
+#define __LFRACT_FBIT__ 31
+#define __LDBL_MAX_10_EXP__ 308
+#define __ATOMIC_RELAXED 0
+#define __DBL_EPSILON__ ((double)2.2204460492503131e-16L)
+#define __ARM_FEATURE_SIMD32 1
+#define __UINT8_C(c) c
+#define __FLT64_MAX_EXP__ 1024
+#define __INT_LEAST32_TYPE__ int
+#define __SIZEOF_WCHAR_T__ 4
+#define __UINT64_TYPE__ long long unsigned int
+#define __LLFRACT_MAX__ 0X7FFFFFFFFFFFFFFFP-63LLR
+#define __TQ_FBIT__ 127
+#define __INT_FAST8_TYPE__ signed char
+#define __ULLACCUM_EPSILON__ 0x1P-32ULLK
+#define __UHQ_IBIT__ 0
+#define __ARM_FEATURE_COPROC 15
+#define __LLACCUM_IBIT__ 32
+#define __FLT64_HAS_DENORM__ 1
+#define __FLT32_EPSILON__ 1.1920928955078125e-7F32
+#define __DBL_DECIMAL_DIG__ 17
+#define __STDC_UTF_32__ 1
+#define __INT_FAST8_WIDTH__ 8
+#define __DEC_EVAL_METHOD__ 2
+#define __FLT32X_MAX__ 1.7976931348623157e+308F32x
+#define __TA_FBIT__ 63
+#define __UDQ_IBIT__ 0
+#define __ORDER_BIG_ENDIAN__ 4321
+#define __ACCUM_EPSILON__ 0x1P-15K
+#define __UINT32_C(c) c ## U
+#define __INTMAX_MAX__ 0x7fffffffffffffffLL
+#define __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__
+#define __FLT_DENORM_MIN__ 1.4012984643248171e-45F
+#define __LLFRACT_IBIT__ 0
+#define __INT8_MAX__ 0x7f
+#define __LONG_WIDTH__ 32
+#define __UINT_FAST32_TYPE__ unsigned int
+#define __CHAR32_TYPE__ unsigned int
+#define __FLT_MAX__ 3.4028234663852886e+38F
+#define __USACCUM_FBIT__ 8
+#define __INT32_TYPE__ int
+#define __SIZEOF_DOUBLE__ 8
+#define __FLT_MIN_10_EXP__ (-37)
+#define __UFRACT_EPSILON__ 0x1P-16UR
+#define __FLT64_MIN__ 2.2250738585072014e-308F64
+#define __INT_LEAST32_WIDTH__ 32
+#define __INTMAX_TYPE__ long long int
+#define __DEC128_MAX_EXP__ 6145
+#define __FLT32X_HAS_QUIET_NAN__ 1
+#define __ATOMIC_CONSUME 1
+#define __GNUC_MINOR__ 3
+#define __INT_FAST16_WIDTH__ 32
+#define __UINTMAX_MAX__ 0xffffffffffffffffULL
+#define __DEC32_MANT_DIG__ 7
+#define __FLT32X_DENORM_MIN__ 4.9406564584124654e-324F32x
+#define __HA_FBIT__ 7
+#define __DBL_MAX_10_EXP__ 308
+#define __LDBL_DENORM_MIN__ 4.9406564584124654e-324L
+#define __INT16_C(c) c
+#define __STDC__ 1
+#define __PTRDIFF_TYPE__ int
+#define __LLFRACT_MIN__ (-0.5LLR-0.5LLR)
+#define __ATOMIC_SEQ_CST 5
+#define __DA_FBIT__ 31
+#define __UINT32_TYPE__ unsigned int
+#define __FLT32X_MIN_10_EXP__ (-307)
+#define __UINTPTR_TYPE__ unsigned int
+#define __USA_IBIT__ 16
+#define __DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD
+#define __ARM_EABI__ 1
+#define __DEC128_MANT_DIG__ 34
+#define __LDBL_MIN_10_EXP__ (-307)
+#define __SIZEOF_LONG_LONG__ 8
+#define __ULACCUM_EPSILON__ 0x1P-32ULK
+#define __SACCUM_IBIT__ 8
+#define __GCC_ATOMIC_LLONG_LOCK_FREE 1
+#define __FLT32X_MIN__ 2.2250738585072014e-308F32x
+#define __LDBL_DIG__ 15
+#define __FLT_DECIMAL_DIG__ 9
+#define __UINT_FAST16_MAX__ 0xffffffffU
+#define __GCC_ATOMIC_SHORT_LOCK_FREE 1
+#define __INT_LEAST64_WIDTH__ 64
+#define __ULLFRACT_MAX__ 0XFFFFFFFFFFFFFFFFP-64ULLR
+#define __UINT_FAST8_TYPE__ unsigned char
+#define __USFRACT_EPSILON__ 0x1P-8UHR
+#define __ULACCUM_FBIT__ 32
+#define __ARM_FEATURE_DSP 1
+#define __QQ_IBIT__ 0
+#define __ATOMIC_ACQ_REL 4
+#define __ATOMIC_RELEASE 3
+
+find program=['ar'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/local/games', '/usr/games'] var='AR' -> ['/usr/bin/ar']
+/usr/bin/gcc
+-------------------------------------------------------
+Target OS
+linux
+-------------------------------------------------------
+Target CPU
+arm
+-------------------------------------------------------
+Target binfmt
+elf
+-------------------------------------------------------
+Checking for 'g++' (C++ compiler)
+find program=['g++', 'c++'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/local/games', '/usr/games'] var='CXX' -> ['/usr/bin/g++']
+['/usr/bin/g++', '-dM', '-E', '-']
+out: #define __DBL_MIN_EXP__ (-1021)
+#define __HQ_FBIT__ 15
+#define __FLT32X_MAX_EXP__ 1024
+#define __UINT_LEAST16_MAX__ 0xffff
+#define __ARM_SIZEOF_WCHAR_T 4
+#define __ATOMIC_ACQUIRE 2
+#define __SFRACT_IBIT__ 0
+#define __FLT_MIN__ 1.1754943508222875e-38F
+#define __GCC_IEC_559_COMPLEX 2
+#define __UFRACT_MAX__ 0XFFFFP-16UR
+#define __UINT_LEAST8_TYPE__ unsigned char
+#define __DQ_FBIT__ 63
+#define __INTMAX_C(c) c ## LL
+#define __ARM_FEATURE_SAT 1
+#define __ULFRACT_FBIT__ 32
+#define __SACCUM_EPSILON__ 0x1P-7HK
+#define __CHAR_BIT__ 8
+#define __USQ_IBIT__ 0
+#define __UINT8_MAX__ 0xff
+#define __ACCUM_FBIT__ 15
+#define __WINT_MAX__ 0xffffffffU
+#define __FLT32_MIN_EXP__ (-125)
+#define __USFRACT_FBIT__ 8
+#define __ORDER_LITTLE_ENDIAN__ 1234
+#define __SIZE_MAX__ 0xffffffffU
+#define __ARM_ARCH_ISA_ARM 1
+#define __WCHAR_MAX__ 0xffffffffU
+#define __LACCUM_IBIT__ 32
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 1
+#define __DBL_DENORM_MIN__ ((double)4.9406564584124654e-324L)
+#define __GCC_ATOMIC_CHAR_LOCK_FREE 1
+#define __GCC_IEC_559 2
+#define __FLT32X_DECIMAL_DIG__ 17
+#define __FLT_EVAL_METHOD__ 0
+#define __unix__ 1
+#define __LLACCUM_MAX__ 0X7FFFFFFFFFFFFFFFP-31LLK
+#define __FLT64_DECIMAL_DIG__ 17
+#define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 2
+#define __FRACT_FBIT__ 15
+#define __UINT_FAST64_MAX__ 0xffffffffffffffffULL
+#define __SIG_ATOMIC_TYPE__ int
+#define __UACCUM_FBIT__ 16
+#define __DBL_MIN_10_EXP__ (-307)
+#define __FINITE_MATH_ONLY__ 0
+#define __ARMEL__ 1
+#define __ARM_FEATURE_UNALIGNED 1
+#define __LFRACT_IBIT__ 0
+#define __GNUC_PATCHLEVEL__ 0
+#define __FLT32_HAS_DENORM__ 1
+#define __LFRACT_MAX__ 0X7FFFFFFFP-31LR
+#define __UINT_FAST8_MAX__ 0xff
+#define __has_include(STR) __has_include__(STR)
+#define __DEC64_MAX_EXP__ 385
+#define __INT8_C(c) c
+#define __INT_LEAST8_WIDTH__ 8
+#define __UINT_LEAST64_MAX__ 0xffffffffffffffffULL
+#define __SA_FBIT__ 15
+#define __SHRT_MAX__ 0x7fff
+#define __LDBL_MAX__ 1.7976931348623157e+308L
+#define __FRACT_MAX__ 0X7FFFP-15R
+#define __UFRACT_FBIT__ 16
+#define __ARM_FP 12
+#define __UFRACT_MIN__ 0.0UR
+#define __UINT_LEAST8_MAX__ 0xff
+#define __GCC_ATOMIC_BOOL_LOCK_FREE 1
+#define __UINTMAX_TYPE__ long long unsigned int
+#define __LLFRACT_EPSILON__ 0x1P-63LLR
+#define __linux 1
+#define __DEC32_EPSILON__ 1E-6DF
+#define __FLT_EVAL_METHOD_TS_18661_3__ 0
+#define __CHAR_UNSIGNED__ 1
+#define __UINT32_MAX__ 0xffffffffU
+#define __ULFRACT_MAX__ 0XFFFFFFFFP-32ULR
+#define __TA_IBIT__ 64
+#define __LDBL_MAX_EXP__ 1024
+#define __WINT_MIN__ 0U
+#define __linux__ 1
+#define __INT_LEAST16_WIDTH__ 16
+#define __ULLFRACT_MIN__ 0.0ULLR
+#define __SCHAR_MAX__ 0x7f
+#define __WCHAR_MIN__ 0U
+#define __INT64_C(c) c ## LL
+#define __DBL_DIG__ 15
+#define __GCC_ATOMIC_POINTER_LOCK_FREE 2
+#define __LLACCUM_MIN__ (-0X1P31LLK-0X1P31LLK)
+#define __SIZEOF_INT__ 4
+#define __SIZEOF_POINTER__ 4
+#define __USACCUM_IBIT__ 8
+#define __USER_LABEL_PREFIX__ 
+#define __STDC_HOSTED__ 1
+#define __LDBL_HAS_INFINITY__ 1
+#define __LFRACT_MIN__ (-0.5LR-0.5LR)
+#define __HA_IBIT__ 8
+#define __FLT32_DIG__ 6
+#define __TQ_IBIT__ 0
+#define __FLT_EPSILON__ 1.1920928955078125e-7F
+#define __APCS_32__ 1
+#define __SHRT_WIDTH__ 16
+#define __USFRACT_IBIT__ 0
+#define __LDBL_MIN__ 2.2250738585072014e-308L
+#define __STDC_UTF_16__ 1
+#define __FRACT_MIN__ (-0.5R-0.5R)
+#define __DEC32_MAX__ 9.999999E96DF
+#define __DA_IBIT__ 32
+#define __ARM_SIZEOF_MINIMAL_ENUM 4
+#define __FLT32X_HAS_INFINITY__ 1
+#define __INT32_MAX__ 0x7fffffff
+#define __UQQ_FBIT__ 8
+#define __INT_WIDTH__ 32
+#define __SIZEOF_LONG__ 4
+#define __UACCUM_MAX__ 0XFFFFFFFFP-16UK
+#define __STDC_IEC_559__ 1
+#define __STDC_ISO_10646__ 201706L
+#define __UINT16_C(c) c
+#define __PTRDIFF_WIDTH__ 32
+#define __DECIMAL_DIG__ 17
+#define __LFRACT_EPSILON__ 0x1P-31LR
+#define __FLT64_EPSILON__ 2.2204460492503131e-16F64
+#define __ULFRACT_MIN__ 0.0ULR
+#define __gnu_linux__ 1
+#define __INTMAX_WIDTH__ 64
+#define __has_include_next(STR) __has_include_next__(STR)
+#define __ARM_PCS_VFP 1
+#define __LDBL_HAS_QUIET_NAN__ 1
+#define __ULACCUM_IBIT__ 32
+#define __FLT64_MANT_DIG__ 53
+#define __UACCUM_EPSILON__ 0x1P-16UK
+#define __GNUC__ 8
+#define __ULLACCUM_MAX__ 0XFFFFFFFFFFFFFFFFP-32ULLK
+#define __HQ_IBIT__ 0
+#define __FLT_HAS_DENORM__ 1
+#define __SIZEOF_LONG_DOUBLE__ 8
+#define __BIGGEST_ALIGNMENT__ 8
+#define __FLT64_MAX_10_EXP__ 308
+#define __GNUC_STDC_INLINE__ 1
+#define __DQ_IBIT__ 0
+#define __DBL_MAX__ ((double)1.7976931348623157e+308L)
+#define __ULFRACT_IBIT__ 0
+#define __INT_FAST32_MAX__ 0x7fffffff
+#define __DBL_HAS_INFINITY__ 1
+#define __ACCUM_IBIT__ 16
+#define __DEC32_MIN_EXP__ (-94)
+#define __THUMB_INTERWORK__ 1
+#define __INTPTR_WIDTH__ 32
+#define __LACCUM_MAX__ 0X7FFFFFFFFFFFFFFFP-31LK
+#define __FLT32X_HAS_DENORM__ 1
+#define __INT_FAST16_TYPE__ int
+#define __LDBL_HAS_DENORM__ 1
+#define __ARM_FEATURE_LDREX 4
+#define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
+#define __INT_LEAST32_MAX__ 0x7fffffff
+#define __DEC32_MIN__ 1E-95DF
+#define __ACCUM_MAX__ 0X7FFFFFFFP-15K
+#define __DBL_MAX_EXP__ 1024
+#define __USACCUM_EPSILON__ 0x1P-8UHK
+#define __WCHAR_WIDTH__ 32
+#define __FLT32_MAX__ 3.4028234663852886e+38F32
+#define __DEC128_EPSILON__ 1E-33DL
+#define __SFRACT_MAX__ 0X7FP-7HR
+#define __FRACT_IBIT__ 0
+#define __PTRDIFF_MAX__ 0x7fffffff
+#define __UACCUM_MIN__ 0.0UK
+#define __UACCUM_IBIT__ 16
+#define __FLT32_HAS_QUIET_NAN__ 1
+#define __LONG_LONG_MAX__ 0x7fffffffffffffffLL
+#define __SIZEOF_SIZE_T__ 4
+#define __ULACCUM_MAX__ 0XFFFFFFFFFFFFFFFFP-32ULK
+#define __SIZEOF_WINT_T__ 4
+#define __LONG_LONG_WIDTH__ 64
+#define __FLT32_MAX_EXP__ 128
+#define __SA_IBIT__ 16
+#define __ULLACCUM_MIN__ 0.0ULLK
+#define __GXX_ABI_VERSION 1013
+#define __UTA_FBIT__ 64
+#define __FLT_MIN_EXP__ (-125)
+#define __USFRACT_MAX__ 0XFFP-8UHR
+#define __UFRACT_IBIT__ 0
+#define __ARM_FEATURE_QBIT 1
+#define __INT_FAST64_TYPE__ long long int
+#define __FLT64_DENORM_MIN__ 4.9406564584124654e-324F64
+#define __DBL_MIN__ ((double)2.2250738585072014e-308L)
+#define __FLT32X_EPSILON__ 2.2204460492503131e-16F32x
+#define __FLT64_MIN_EXP__ (-1021)
+#define __LACCUM_MIN__ (-0X1P31LK-0X1P31LK)
+#define __ULLACCUM_FBIT__ 32
+#define __GXX_TYPEINFO_EQUALITY_INLINE 0
+#define __FLT64_MIN_10_EXP__ (-307)
+#define __ULLFRACT_EPSILON__ 0x1P-64ULLR
+#define __DEC128_MIN__ 1E-6143DL
+#define __REGISTER_PREFIX__ 
+#define __UINT16_MAX__ 0xffff
+#define __DBL_HAS_DENORM__ 1
+#define __ACCUM_MIN__ (-0X1P15K-0X1P15K)
+#define __SQ_IBIT__ 0
+#define __FLT32_MIN__ 1.1754943508222875e-38F32
+#define __UINT8_TYPE__ unsigned char
+#define __UHA_FBIT__ 8
+#define __NO_INLINE__ 1
+#define __SFRACT_MIN__ (-0.5HR-0.5HR)
+#define __UTQ_FBIT__ 128
+#define __FLT_MANT_DIG__ 24
+#define __LDBL_DECIMAL_DIG__ 17
+#define __VERSION__ "8.3.0"
+#define __UINT64_C(c) c ## ULL
+#define __ULLFRACT_FBIT__ 64
+#define __FRACT_EPSILON__ 0x1P-15R
+#define __ULACCUM_MIN__ 0.0ULK
+#define _STDC_PREDEF_H 1
+#define __UDA_FBIT__ 32
+#define __LLACCUM_EPSILON__ 0x1P-31LLK
+#define __GCC_ATOMIC_INT_LOCK_FREE 2
+#define __FLT32_MANT_DIG__ 24
+#define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
+#define __USFRACT_MIN__ 0.0UHR
+#define __UQQ_IBIT__ 0
+#define __STDC_IEC_559_COMPLEX__ 1
+#define __SCHAR_WIDTH__ 8
+#define __INT32_C(c) c
+#define __DEC64_EPSILON__ 1E-15DD
+#define __ORDER_PDP_ENDIAN__ 3412
+#define __DEC128_MIN_EXP__ (-6142)
+#define __UHQ_FBIT__ 16
+#define __LLACCUM_FBIT__ 31
+#define __FLT32_MAX_10_EXP__ 38
+#define __INT_FAST32_TYPE__ int
+#define __UINT_LEAST16_TYPE__ short unsigned int
+#define unix 1
+#define __INT16_MAX__ 0x7fff
+#define __SIZE_TYPE__ unsigned int
+#define __UINT64_MAX__ 0xffffffffffffffffULL
+#define __UDQ_FBIT__ 64
+#define __INT8_TYPE__ signed char
+#define __ELF__ 1
+#define __ULFRACT_EPSILON__ 0x1P-32ULR
+#define __LLFRACT_FBIT__ 63
+#define __FLT_RADIX__ 2
+#define __INT_LEAST16_TYPE__ short int
+#define __LDBL_EPSILON__ 2.2204460492503131e-16L
+#define __UINTMAX_C(c) c ## ULL
+#define __SACCUM_MAX__ 0X7FFFP-7HK
+#define __SIG_ATOMIC_MAX__ 0x7fffffff
+#define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 2
+#define __VFP_FP__ 1
+#define __SIZEOF_PTRDIFF_T__ 4
+#define __FLT32X_MANT_DIG__ 53
+#define __LACCUM_EPSILON__ 0x1P-31LK
+#define __FLT32X_MIN_EXP__ (-1021)
+#define __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF
+#define __INT_FAST16_MAX__ 0x7fffffff
+#define __ARM_ARCH_6__ 1
+#define __FLT64_DIG__ 15
+#define __UINT_FAST32_MAX__ 0xffffffffU
+#define __UINT_LEAST64_TYPE__ long long unsigned int
+#define __USACCUM_MAX__ 0XFFFFP-8UHK
+#define __SFRACT_EPSILON__ 0x1P-7HR
+#define __FLT_HAS_QUIET_NAN__ 1
+#define __FLT_MAX_10_EXP__ 38
+#define __LONG_MAX__ 0x7fffffffL
+#define __DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000000000001E-6143DL
+#define __FLT_HAS_INFINITY__ 1
+#define __unix 1
+#define __USA_FBIT__ 16
+#define __UINT_FAST16_TYPE__ unsigned int
+#define __DEC64_MAX__ 9.999999999999999E384DD
+#define __ARM_32BIT_STATE 1
+#define __INT_FAST32_WIDTH__ 32
+#define __CHAR16_TYPE__ short unsigned int
+#define __PRAGMA_REDEFINE_EXTNAME 1
+#define __SIZE_WIDTH__ 32
+#define __INT_LEAST16_MAX__ 0x7fff
+#define __DEC64_MANT_DIG__ 16
+#define __INT64_MAX__ 0x7fffffffffffffffLL
+#define __UINT_LEAST32_MAX__ 0xffffffffU
+#define __SACCUM_FBIT__ 7
+#define __FLT32_DENORM_MIN__ 1.4012984643248171e-45F32
+#define __GCC_ATOMIC_LONG_LOCK_FREE 2
+#define __SIG_ATOMIC_WIDTH__ 32
+#define __INT_LEAST64_TYPE__ long long int
+#define __ARM_FEATURE_CLZ 1
+#define __INT16_TYPE__ short int
+#define __INT_LEAST8_TYPE__ signed char
+#define __STDC_VERSION__ 201710L
+#define __SQ_FBIT__ 31
+#define __DEC32_MAX_EXP__ 97
+#define __ARM_ARCH_ISA_THUMB 1
+#define __INT_FAST8_MAX__ 0x7f
+#define __ARM_ARCH 6
+#define __INTPTR_MAX__ 0x7fffffff
+#define __QQ_FBIT__ 7
+#define linux 1
+#define __UTA_IBIT__ 64
+#define __FLT64_HAS_QUIET_NAN__ 1
+#define __FLT32_MIN_10_EXP__ (-37)
+#define __FLT32X_DIG__ 15
+#define __LDBL_MANT_DIG__ 53
+#define __SFRACT_FBIT__ 7
+#define __SACCUM_MIN__ (-0X1P7HK-0X1P7HK)
+#define __DBL_HAS_QUIET_NAN__ 1
+#define __FLT64_HAS_INFINITY__ 1
+#define __SIG_ATOMIC_MIN__ (-__SIG_ATOMIC_MAX__ - 1)
+#define __INTPTR_TYPE__ int
+#define __UINT16_TYPE__ short unsigned int
+#define __WCHAR_TYPE__ unsigned int
+#define __SIZEOF_FLOAT__ 4
+#define __USQ_FBIT__ 32
+#define __UINTPTR_MAX__ 0xffffffffU
+#define __INT_FAST64_WIDTH__ 64
+#define __DEC64_MIN_EXP__ (-382)
+#define __ULLACCUM_IBIT__ 32
+#define __FLT32_DECIMAL_DIG__ 9
+#define __INT_FAST64_MAX__ 0x7fffffffffffffffLL
+#define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
+#define __FLT_DIG__ 6
+#define __FLT32_HAS_INFINITY__ 1
+#define __UINT_FAST64_TYPE__ long long unsigned int
+#define __INT_MAX__ 0x7fffffff
+#define __LACCUM_FBIT__ 31
+#define __USACCUM_MIN__ 0.0UHK
+#define __UHA_IBIT__ 8
+#define __INT64_TYPE__ long long int
+#define __FLT_MAX_EXP__ 128
+#define __UTQ_IBIT__ 0
+#define __DBL_MANT_DIG__ 53
+#define __INT_LEAST64_MAX__ 0x7fffffffffffffffLL
+#define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 1
+#define __DEC64_MIN__ 1E-383DD
+#define __WINT_TYPE__ unsigned int
+#define __UINT_LEAST32_TYPE__ unsigned int
+#define __SIZEOF_SHORT__ 2
+#define __ULLFRACT_IBIT__ 0
+#define __LDBL_MIN_EXP__ (-1021)
+#define __arm__ 1
+#define __FLT64_MAX__ 1.7976931348623157e+308F64
+#define __UDA_IBIT__ 32
+#define __WINT_WIDTH__ 32
+#define __INT_LEAST8_MAX__ 0x7f
+#define __FLT32X_MAX_10_EXP__ 308
+#define __LFRACT_FBIT__ 31
+#define __LDBL_MAX_10_EXP__ 308
+#define __ATOMIC_RELAXED 0
+#define __DBL_EPSILON__ ((double)2.2204460492503131e-16L)
+#define __ARM_FEATURE_SIMD32 1
+#define __UINT8_C(c) c
+#define __FLT64_MAX_EXP__ 1024
+#define __INT_LEAST32_TYPE__ int
+#define __SIZEOF_WCHAR_T__ 4
+#define __UINT64_TYPE__ long long unsigned int
+#define __LLFRACT_MAX__ 0X7FFFFFFFFFFFFFFFP-63LLR
+#define __TQ_FBIT__ 127
+#define __INT_FAST8_TYPE__ signed char
+#define __ULLACCUM_EPSILON__ 0x1P-32ULLK
+#define __UHQ_IBIT__ 0
+#define __ARM_FEATURE_COPROC 15
+#define __LLACCUM_IBIT__ 32
+#define __FLT64_HAS_DENORM__ 1
+#define __FLT32_EPSILON__ 1.1920928955078125e-7F32
+#define __DBL_DECIMAL_DIG__ 17
+#define __STDC_UTF_32__ 1
+#define __INT_FAST8_WIDTH__ 8
+#define __DEC_EVAL_METHOD__ 2
+#define __FLT32X_MAX__ 1.7976931348623157e+308F32x
+#define __TA_FBIT__ 63
+#define __UDQ_IBIT__ 0
+#define __ORDER_BIG_ENDIAN__ 4321
+#define __ACCUM_EPSILON__ 0x1P-15K
+#define __UINT32_C(c) c ## U
+#define __INTMAX_MAX__ 0x7fffffffffffffffLL
+#define __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__
+#define __FLT_DENORM_MIN__ 1.4012984643248171e-45F
+#define __LLFRACT_IBIT__ 0
+#define __INT8_MAX__ 0x7f
+#define __LONG_WIDTH__ 32
+#define __UINT_FAST32_TYPE__ unsigned int
+#define __CHAR32_TYPE__ unsigned int
+#define __FLT_MAX__ 3.4028234663852886e+38F
+#define __USACCUM_FBIT__ 8
+#define __INT32_TYPE__ int
+#define __SIZEOF_DOUBLE__ 8
+#define __FLT_MIN_10_EXP__ (-37)
+#define __UFRACT_EPSILON__ 0x1P-16UR
+#define __FLT64_MIN__ 2.2250738585072014e-308F64
+#define __INT_LEAST32_WIDTH__ 32
+#define __INTMAX_TYPE__ long long int
+#define __DEC128_MAX_EXP__ 6145
+#define __FLT32X_HAS_QUIET_NAN__ 1
+#define __ATOMIC_CONSUME 1
+#define __GNUC_MINOR__ 3
+#define __INT_FAST16_WIDTH__ 32
+#define __UINTMAX_MAX__ 0xffffffffffffffffULL
+#define __DEC32_MANT_DIG__ 7
+#define __FLT32X_DENORM_MIN__ 4.9406564584124654e-324F32x
+#define __HA_FBIT__ 7
+#define __DBL_MAX_10_EXP__ 308
+#define __LDBL_DENORM_MIN__ 4.9406564584124654e-324L
+#define __INT16_C(c) c
+#define __STDC__ 1
+#define __PTRDIFF_TYPE__ int
+#define __LLFRACT_MIN__ (-0.5LLR-0.5LLR)
+#define __ATOMIC_SEQ_CST 5
+#define __DA_FBIT__ 31
+#define __UINT32_TYPE__ unsigned int
+#define __FLT32X_MIN_10_EXP__ (-307)
+#define __UINTPTR_TYPE__ unsigned int
+#define __USA_IBIT__ 16
+#define __DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD
+#define __ARM_EABI__ 1
+#define __DEC128_MANT_DIG__ 34
+#define __LDBL_MIN_10_EXP__ (-307)
+#define __SIZEOF_LONG_LONG__ 8
+#define __ULACCUM_EPSILON__ 0x1P-32ULK
+#define __SACCUM_IBIT__ 8
+#define __GCC_ATOMIC_LLONG_LOCK_FREE 1
+#define __FLT32X_MIN__ 2.2250738585072014e-308F32x
+#define __LDBL_DIG__ 15
+#define __FLT_DECIMAL_DIG__ 9
+#define __UINT_FAST16_MAX__ 0xffffffffU
+#define __GCC_ATOMIC_SHORT_LOCK_FREE 1
+#define __INT_LEAST64_WIDTH__ 64
+#define __ULLFRACT_MAX__ 0XFFFFFFFFFFFFFFFFP-64ULLR
+#define __UINT_FAST8_TYPE__ unsigned char
+#define __USFRACT_EPSILON__ 0x1P-8UHR
+#define __ULACCUM_FBIT__ 32
+#define __ARM_FEATURE_DSP 1
+#define __QQ_IBIT__ 0
+#define __ATOMIC_ACQ_REL 4
+#define __ATOMIC_RELEASE 3
+
+find program=['ar'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/local/games', '/usr/games'] var='AR' -> ['/usr/bin/ar']
+/usr/bin/g++
+-------------------------------------------------------
+Target OS
+linux
+-------------------------------------------------------
+Target CPU
+arm
+-------------------------------------------------------
+Target binfmt
+elf
+-------------------------------------------------------
+Checking for program 'git'
+/usr/bin/git
+find program=['git'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/local/games', '/usr/games'] var='GIT' -> ['/usr/bin/git']
+-------------------------------------------------------
+Checking git hash
+['/usr/bin/git', 'describe', '--dirty', '--always']
+out: cb04a1e4
+
+cb04a1e4
+-------------------------------------------------------
+Checking for program 'strip'
+/usr/bin/strip
+find program=['strip'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/local/games', '/usr/games'] var='STRIP' -> ['/usr/bin/strip']
+-------------------------------------------------------
+Checking for program 'objcopy'
+/usr/bin/objcopy
+find program=['objcopy'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/local/games', '/usr/games'] var='OBJCOPY' -> ['/usr/bin/objcopy']
+-------------------------------------------------------
+Checking if 'gcc' can target 32-bit
+==>
+int main(void){int check[sizeof(void*)==4?1:-1];return 0;}
+<==
+[1/2] Compiling [32mbuild/.conf_check_bf59d657e8fc51d65830e854e69d04de/test.c[0m
+
+['/usr/bin/gcc', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_bf59d657e8fc51d65830e854e69d04de/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_bf59d657e8fc51d65830e854e69d04de/testbuild/testprog[0m
+
+['/usr/bin/gcc', 'test.c.1.o', '-o/home/pi/Downloads/source-engine/build/.conf_check_bf59d657e8fc51d65830e854e69d04de/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+yes
+-------------------------------------------------------
+Checking for required C flags
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_fcff63a02631786f485787dffbacd45f/test.c[0m
+
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_fcff63a02631786f485787dffbacd45f/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_fcff63a02631786f485787dffbacd45f/testbuild/testprog[0m
+
+['/usr/bin/gcc', '-Wl,--no-undefined', '-fPIC', '-mfpu=neon', '-fsigned-char', 'test.c.1.o', '-o/home/pi/Downloads/source-engine/build/.conf_check_fcff63a02631786f485787dffbacd45f/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+yes
+-------------------------------------------------------
+Checking for required C++ flags
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_b3db0fd6b6db7ed23d7d53aa3c1440de/test.cpp[0m
+
+['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '../test.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_b3db0fd6b6db7ed23d7d53aa3c1440de/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_b3db0fd6b6db7ed23d7d53aa3c1440de/testbuild/testprog[0m
+
+['/usr/bin/g++', '-Wl,--no-undefined', '-fPIC', '-mfpu=neon', '-fsigned-char', 'test.cpp.1.o', '-o/home/pi/Downloads/source-engine/build/.conf_check_b3db0fd6b6db7ed23d7d53aa3c1440de/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+yes
+-------------------------------------------------------
+Checking supported flags for g++ in parallel
+started
+-------------------------------------------------------
+... -faligned-new
+yes
+-------------------------------------------------------
+... -Wstrict-aliasing
+yes
+-------------------------------------------------------
+... -Winit-self
+yes
+-------------------------------------------------------
+... -Wuninitialized
+yes
+-------------------------------------------------------
+... -fdiagnostics-color=always
+yes
+-------------------------------------------------------
+... -Wall
+yes
+-------------------------------------------------------
+... -Wcast-align
+yes
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_a45c1a13873b379e3c68ad141b7fc40b/test.cpp[0m
+
+['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wall', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_FALIGNED_NEW=1', '-D_WSTRICT_ALIASING=1', '-D_WINIT_SELF=1', '-D_WUNINITIALIZED=1', '../test.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_a45c1a13873b379e3c68ad141b7fc40b/testbuild/test.cpp.1.o']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_0417ec3ec07fa512b5984400e2ac5b93/test.cpp[0m
+
+['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-fdiagnostics-color=always', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_FALIGNED_NEW=1', '../test.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_0417ec3ec07fa512b5984400e2ac5b93/testbuild/test.cpp.1.o']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_49b6414728a8f17e23d8299ce97fc224/test.cpp[0m
+
+['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wcast-align', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_FALIGNED_NEW=1', '-D_WSTRICT_ALIASING=1', '-D_WINIT_SELF=1', '-D_WUNINITIALIZED=1', '../test.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_49b6414728a8f17e23d8299ce97fc224/testbuild/test.cpp.1.o']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_a26a402c6d2fbbe207e9fdee4ce44047/test.cpp[0m
+
+['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wuninitialized', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '../test.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_a26a402c6d2fbbe207e9fdee4ce44047/testbuild/test.cpp.1.o']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_4599510518dabd11cf434b0d80eca7a8/test.cpp[0m
+
+['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Winit-self', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '../test.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_4599510518dabd11cf434b0d80eca7a8/testbuild/test.cpp.1.o']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_1c8b70748d892874d2d4b2633ff68b6d/test.cpp[0m
+
+['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wstrict-aliasing', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '../test.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_1c8b70748d892874d2d4b2633ff68b6d/testbuild/test.cpp.1.o']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_08f92868004729ae1c1a753ef7ae22c1/test.cpp[0m
+
+['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-faligned-new', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '../test.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_08f92868004729ae1c1a753ef7ae22c1/testbuild/test.cpp.1.o']
+-------------------------------------------------------
+-> processing test results
+all ok
+-------------------------------------------------------
+Checking supported flags for gcc in parallel
+started
+-------------------------------------------------------
+... -Wcast-align
+yes
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_b98b53eb3eaff5da925f332ec631f806/test.c[0m
+
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-faligned-new', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_b98b53eb3eaff5da925f332ec631f806/testbuild/test.c.1.o']
+err: cc1: error: command line option ‘-faligned-new=1’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+
+-------------------------------------------------------
+... -Wuninitialized
+yes
+-------------------------------------------------------
+... -faligned-new
+no
+-------------------------------------------------------
+... -Wall
+yes
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_f07b865193e92ab9a05831ffc54dd323/test.c[0m
+
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-fnonconst-initializers', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_WCAST_ALIGN=1', '-D_WUNINITIALIZED=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_f07b865193e92ab9a05831ffc54dd323/testbuild/test.c.1.o']
+err: gcc: error: unrecognized command line option ‘-fnonconst-initializers’; did you mean ‘-Wno-uninitialized’?
+
+-------------------------------------------------------
+... -fnonconst-initializers
+no
+-------------------------------------------------------
+... -Wstrict-aliasing
+yes
+-------------------------------------------------------
+... -Winit-self
+yes
+-------------------------------------------------------
+... -fdiagnostics-color=always
+yes
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_4395aac7cf6732a7ab93a886aa1125fe/test.c[0m
+
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Wall', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_4395aac7cf6732a7ab93a886aa1125fe/testbuild/test.c.1.o']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_302adcb69d2e4bb32fde019dc84de881/test.c[0m
+
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-fdiagnostics-color=always', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_WCAST_ALIGN=1', '-D_WUNINITIALIZED=1', '-D_WALL=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_302adcb69d2e4bb32fde019dc84de881/testbuild/test.c.1.o']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_b5b0a9d696e1667c99e430e025295ff3/test.c[0m
+
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Wcast-align', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_b5b0a9d696e1667c99e430e025295ff3/testbuild/test.c.1.o']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_82bf1e23529cc06d4a2dfcd6da8071b7/test.c[0m
+
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Wuninitialized', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_82bf1e23529cc06d4a2dfcd6da8071b7/testbuild/test.c.1.o']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_48093ae46e7d5260442cdd7d85b07b0f/test.c[0m
+
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Winit-self', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_WCAST_ALIGN=1', '-D_WUNINITIALIZED=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_48093ae46e7d5260442cdd7d85b07b0f/testbuild/test.c.1.o']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_8fa093db8ffc1a2a8fd88a326b5d9215/test.c[0m
+
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Wstrict-aliasing', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_WCAST_ALIGN=1', '-D_WUNINITIALIZED=1', '-D_WALL=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_8fa093db8ffc1a2a8fd88a326b5d9215/testbuild/test.c.1.o']
+from /home/pi/Downloads/source-engine: Test does not build: Traceback (most recent call last):
+  File "/home/pi/Downloads/source-engine/.waf-2.0.22-a21fa92a45548e4c642deabae50eb159/waflib/Configure.py", line 606, in run_build
+    bld.compile()
+  File "/home/pi/Downloads/source-engine/.waf-2.0.22-a21fa92a45548e4c642deabae50eb159/waflib/Build.py", line 359, in compile
+    raise Errors.BuildError(self.producer.error)
+BuildError: Build failed
+ -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
+
+from /home/pi/Downloads/source-engine: The configuration failed
+from /home/pi/Downloads/source-engine: Test does not build: Traceback (most recent call last):
+  File "/home/pi/Downloads/source-engine/.waf-2.0.22-a21fa92a45548e4c642deabae50eb159/waflib/Configure.py", line 606, in run_build
+    bld.compile()
+  File "/home/pi/Downloads/source-engine/.waf-2.0.22-a21fa92a45548e4c642deabae50eb159/waflib/Build.py", line 359, in compile
+    raise Errors.BuildError(self.producer.error)
+BuildError: Build failed
+ -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
+
+from /home/pi/Downloads/source-engine: The configuration failed
+-------------------------------------------------------
+-> processing test results
+2 test failed
+from /home/pi/Downloads/source-engine: One of the tests has failed, read config.log for more information
+-------------------------------------------------------
+Checking for program 'pkg-config'
+/usr/bin/pkg-config
+find program=['pkg-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/local/games', '/usr/games'] var='PKGCONFIG' -> ['/usr/bin/pkg-config']
+-------------------------------------------------------
+Checking for 'sdl2'
+['/usr/bin/pkg-config', '--cflags', '--libs', 'sdl2']
+out: -D_REENTRANT -I/usr/local/include/SDL2 -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -L/usr/local/lib -Wl,-rpath,/usr/local/lib -Wl,--enable-new-dtags -lSDL2
+
+yes
+-------------------------------------------------------
+Checking for 'freetype2'
+['/usr/bin/pkg-config', '--cflags', '--libs', 'freetype2']
+out: -I/usr/include/freetype2 -I/usr/include/libpng16 -lfreetype
+
+yes
+-------------------------------------------------------
+Checking for 'freetype2' sanity
+==>
+extern "C" {
+#include <ft2build.h>
+#include FT_FREETYPE_H
+}
+
+int main() { return FT_Init_FreeType( NULL ); }
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_6cdf1aefbd7e61f050ffabfaad8f7d56/test.cpp[0m
+
+['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wall', '-fdiagnostics-color=always', '-Wcast-align', '-Wuninitialized', '-Winit-self', '-Wstrict-aliasing', '-faligned-new', '-I../../../common', '-I/usr/include/freetype2', '-I/usr/include/libpng16', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-DHAVE_SDL2=1', '-DHAVE_FT2=1', '../test.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_6cdf1aefbd7e61f050ffabfaad8f7d56/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_6cdf1aefbd7e61f050ffabfaad8f7d56/testbuild/testprog[0m
+
+['/usr/bin/g++', '-Wl,--no-undefined', '-fPIC', '-mfpu=neon', '-fsigned-char', '-pthread', 'test.cpp.1.o', '-o/home/pi/Downloads/source-engine/build/.conf_check_6cdf1aefbd7e61f050ffabfaad8f7d56/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lfreetype']
+yes
+-------------------------------------------------------
+Checking for 'fontconfig'
+['/usr/bin/pkg-config', '--cflags', '--libs', 'fontconfig']
+out: -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -lfontconfig -lfreetype
+
+yes
+-------------------------------------------------------
+Checking for 'fontconfig' sanity
+==>
+extern "C" {
+#include <fontconfig/fontconfig.h>
+}
+
+int main() { return (int)FcInit(); }
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_34a31504ac02008491df27783bc3646c/test.cpp[0m
+
+['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wall', '-fdiagnostics-color=always', '-Wcast-align', '-Wuninitialized', '-Winit-self', '-Wstrict-aliasing', '-faligned-new', '-I../../../common', '-I/usr/include/uuid', '-I/usr/include/freetype2', '-I/usr/include/libpng16', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-DHAVE_SDL2=1', '-DHAVE_FT2=1', '-DHAVE_FC=1', '../test.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_34a31504ac02008491df27783bc3646c/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_34a31504ac02008491df27783bc3646c/testbuild/testprog[0m
+
+['/usr/bin/g++', '-Wl,--no-undefined', '-fPIC', '-mfpu=neon', '-fsigned-char', '-pthread', 'test.cpp.1.o', '-o/home/pi/Downloads/source-engine/build/.conf_check_34a31504ac02008491df27783bc3646c/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lfontconfig', '-lfreetype']
+yes
+-------------------------------------------------------
+Checking for 'openal'
+['/usr/bin/pkg-config', '--cflags', '--libs', 'openal']
+out: -I/usr/include/AL -lopenal
+
+yes
+-------------------------------------------------------
+Checking for 'libjpeg'
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libjpeg']
+out: -ljpeg
+
+yes
+-------------------------------------------------------
+Checking for 'libpng'
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libpng']
+out: -I/usr/include/libpng16 -lpng16 -lz
+
+yes
+-------------------------------------------------------
+Checking for 'libcurl'
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libcurl']
+out: -I/usr/include/arm-linux-gnueabihf -lcurl
+
+yes
+-------------------------------------------------------
+Checking for 'zlib'
+['/usr/bin/pkg-config', '--cflags', '--libs', 'zlib']
+out: -lz
+
+yes
+-------------------------------------------------------
+Checking for library dl
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_6c8b7b9fc3fa2f4dff2e276a3164420b/test.c[0m
+
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Wall', '-fdiagnostics-color=always', '-Wcast-align', '-Wuninitialized', '-Winit-self', '-Wstrict-aliasing', '-I../../../common', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-DHAVE_SDL2=1', '-DHAVE_FT2=1', '-DHAVE_FC=1', '-DHAVE_OPENAL=1', '-DHAVE_JPEG=1', '-DHAVE_PNG=1', '-DHAVE_CURL=1', '-DHAVE_ZLIB=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_6c8b7b9fc3fa2f4dff2e276a3164420b/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_6c8b7b9fc3fa2f4dff2e276a3164420b/testbuild/testprog[0m
+
+['/usr/bin/gcc', '-Wl,--no-undefined', '-fPIC', '-mfpu=neon', '-fsigned-char', '-pthread', 'test.c.1.o', '-o/home/pi/Downloads/source-engine/build/.conf_check_6c8b7b9fc3fa2f4dff2e276a3164420b/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-ldl']
+yes
+-------------------------------------------------------
+Checking for library bz2
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_4e3fe813488acc8a788be8148fd35bed/test.c[0m
+
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Wall', '-fdiagnostics-color=always', '-Wcast-align', '-Wuninitialized', '-Winit-self', '-Wstrict-aliasing', '-I../../../common', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-DHAVE_SDL2=1', '-DHAVE_FT2=1', '-DHAVE_FC=1', '-DHAVE_OPENAL=1', '-DHAVE_JPEG=1', '-DHAVE_PNG=1', '-DHAVE_CURL=1', '-DHAVE_ZLIB=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_4e3fe813488acc8a788be8148fd35bed/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_4e3fe813488acc8a788be8148fd35bed/testbuild/testprog[0m
+
+['/usr/bin/gcc', '-Wl,--no-undefined', '-fPIC', '-mfpu=neon', '-fsigned-char', '-pthread', 'test.c.1.o', '-o/home/pi/Downloads/source-engine/build/.conf_check_4e3fe813488acc8a788be8148fd35bed/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lbz2']
+err: /usr/bin/ld: cannot find -lbz2
+collect2: error: ld returned 1 exit status
+
+from /home/pi/Downloads/source-engine: Test does not build: Traceback (most recent call last):
+  File "/home/pi/Downloads/source-engine/.waf-2.0.22-a21fa92a45548e4c642deabae50eb159/waflib/Configure.py", line 606, in run_build
+    bld.compile()
+  File "/home/pi/Downloads/source-engine/.waf-2.0.22-a21fa92a45548e4c642deabae50eb159/waflib/Build.py", line 359, in compile
+    raise Errors.BuildError(self.producer.error)
+BuildError: Build failed
+ -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
+
+not found
+from /home/pi/Downloads/source-engine: The configuration failed
+-------------------------------------------------------
+Checking for library rt
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_b73995a7a9fdd02e13be241eb425cd8f/test.c[0m
+
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Wall', '-fdiagnostics-color=always', '-Wcast-align', '-Wuninitialized', '-Winit-self', '-Wstrict-aliasing', '-I../../../common', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-DHAVE_SDL2=1', '-DHAVE_FT2=1', '-DHAVE_FC=1', '-DHAVE_OPENAL=1', '-DHAVE_JPEG=1', '-DHAVE_PNG=1', '-DHAVE_CURL=1', '-DHAVE_ZLIB=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_b73995a7a9fdd02e13be241eb425cd8f/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_b73995a7a9fdd02e13be241eb425cd8f/testbuild/testprog[0m
+
+['/usr/bin/gcc', '-Wl,--no-undefined', '-fPIC', '-mfpu=neon', '-fsigned-char', '-pthread', 'test.c.1.o', '-o/home/pi/Downloads/source-engine/build/.conf_check_b73995a7a9fdd02e13be241eb425cd8f/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lrt']
+yes
+-------------------------------------------------------
+Checking for library m
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_9523fe052bbc82fde8fa0f46c9110de7/test.c[0m
+
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Wall', '-fdiagnostics-color=always', '-Wcast-align', '-Wuninitialized', '-Winit-self', '-Wstrict-aliasing', '-I../../../common', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-DHAVE_SDL2=1', '-DHAVE_FT2=1', '-DHAVE_FC=1', '-DHAVE_OPENAL=1', '-DHAVE_JPEG=1', '-DHAVE_PNG=1', '-DHAVE_CURL=1', '-DHAVE_ZLIB=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_9523fe052bbc82fde8fa0f46c9110de7/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_9523fe052bbc82fde8fa0f46c9110de7/testbuild/testprog[0m
+
+['/usr/bin/gcc', '-Wl,--no-undefined', '-fPIC', '-mfpu=neon', '-fsigned-char', '-pthread', 'test.c.1.o', '-o/home/pi/Downloads/source-engine/build/.conf_check_9523fe052bbc82fde8fa0f46c9110de7/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lm']
+yes
+-------------------------------------------------------
+--> appframework
+in progress
+-------------------------------------------------------
+<-- appframework
+done
+-------------------------------------------------------
+--> bitmap
+in progress
+-------------------------------------------------------
+<-- bitmap
+done
+-------------------------------------------------------
+--> choreoobjects
+in progress
+-------------------------------------------------------
+<-- choreoobjects
+done
+-------------------------------------------------------
+--> datacache
+in progress
+-------------------------------------------------------
+<-- datacache
+done
+-------------------------------------------------------
+--> datamodel
+in progress
+-------------------------------------------------------
+<-- datamodel
+done
+-------------------------------------------------------
+--> dmxloader
+in progress
+-------------------------------------------------------
+<-- dmxloader
+done
+-------------------------------------------------------
+--> engine
+in progress
+-------------------------------------------------------
+<-- engine
+done
+-------------------------------------------------------
+--> engine/voice_codecs/minimp3
+in progress
+-------------------------------------------------------
+<-- engine/voice_codecs/minimp3
+done
+-------------------------------------------------------
+--> filesystem
+in progress
+-------------------------------------------------------
+<-- filesystem
+done
+-------------------------------------------------------
+--> game/client
+in progress
+-------------------------------------------------------
+<-- game/client
+done
+-------------------------------------------------------
+--> game/server
+in progress
+-------------------------------------------------------
+<-- game/server
+done
+-------------------------------------------------------
+--> gameui
+in progress
+-------------------------------------------------------
+<-- gameui
+done
+-------------------------------------------------------
+--> inputsystem
+in progress
+-------------------------------------------------------
+<-- inputsystem
+done
+-------------------------------------------------------
+--> ivp/havana
+in progress
+-------------------------------------------------------
+<-- ivp/havana
+done
+-------------------------------------------------------
+--> ivp/havana/havok/hk_base
+in progress
+-------------------------------------------------------
+<-- ivp/havana/havok/hk_base
+done
+-------------------------------------------------------
+--> ivp/havana/havok/hk_math
+in progress
+-------------------------------------------------------
+<-- ivp/havana/havok/hk_math
+done
+-------------------------------------------------------
+--> ivp/ivp_compact_builder
+in progress
+-------------------------------------------------------
+<-- ivp/ivp_compact_builder
+done
+-------------------------------------------------------
+--> ivp/ivp_physics
+in progress
+-------------------------------------------------------
+<-- ivp/ivp_physics
+done
+-------------------------------------------------------
+--> launcher
+in progress
+-------------------------------------------------------
+<-- launcher
+done
+-------------------------------------------------------
+--> launcher_main
+in progress
+-------------------------------------------------------
+<-- launcher_main
+done
+-------------------------------------------------------
+--> materialsystem
+in progress
+-------------------------------------------------------
+<-- materialsystem
+done
+-------------------------------------------------------
+--> materialsystem/shaderapidx9
+in progress
+-------------------------------------------------------
+<-- materialsystem/shaderapidx9
+done
+-------------------------------------------------------
+--> materialsystem/shaderlib
+in progress
+-------------------------------------------------------
+<-- materialsystem/shaderlib
+done
+-------------------------------------------------------
+--> materialsystem/stdshaders
+in progress
+-------------------------------------------------------
+<-- materialsystem/stdshaders
+done
+-------------------------------------------------------
+--> mathlib
+in progress
+-------------------------------------------------------
+<-- mathlib
+done
+-------------------------------------------------------
+--> particles
+in progress
+-------------------------------------------------------
+<-- particles
+done
+-------------------------------------------------------
+--> scenefilecache
+in progress
+-------------------------------------------------------
+<-- scenefilecache
+done
+-------------------------------------------------------
+--> serverbrowser
+in progress
+-------------------------------------------------------
+<-- serverbrowser
+done
+-------------------------------------------------------
+--> soundemittersystem
+in progress
+-------------------------------------------------------
+<-- soundemittersystem
+done
+-------------------------------------------------------
+--> studiorender
+in progress
+-------------------------------------------------------
+<-- studiorender
+done
+-------------------------------------------------------
+--> thirdparty/StubSteamAPI
+in progress
+-------------------------------------------------------
+<-- thirdparty/StubSteamAPI
+done
+-------------------------------------------------------
+--> tier0
+in progress
+-------------------------------------------------------
+<-- tier0
+done
+-------------------------------------------------------
+--> tier1
+in progress
+-------------------------------------------------------
+<-- tier1
+done
+-------------------------------------------------------
+--> tier2
+in progress
+-------------------------------------------------------
+<-- tier2
+done
+-------------------------------------------------------
+--> tier3
+in progress
+-------------------------------------------------------
+<-- tier3
+done
+-------------------------------------------------------
+--> togl
+in progress
+-------------------------------------------------------
+<-- togl
+done
+-------------------------------------------------------
+--> vgui2/matsys_controls
+in progress
+-------------------------------------------------------
+<-- vgui2/matsys_controls
+done
+-------------------------------------------------------
+--> vgui2/src
+in progress
+-------------------------------------------------------
+<-- vgui2/src
+done
+-------------------------------------------------------
+--> vgui2/vgui_controls
+in progress
+-------------------------------------------------------
+<-- vgui2/vgui_controls
+done
+-------------------------------------------------------
+--> vgui2/vgui_surfacelib
+in progress
+-------------------------------------------------------
+<-- vgui2/vgui_surfacelib
+done
+-------------------------------------------------------
+--> vguimatsurface
+in progress
+-------------------------------------------------------
+<-- vguimatsurface
+done
+-------------------------------------------------------
+--> video
+in progress
+-------------------------------------------------------
+<-- video
+done
+-------------------------------------------------------
+--> vphysics
+in progress
+-------------------------------------------------------
+<-- vphysics
+done
+-------------------------------------------------------
+--> vpklib
+in progress
+-------------------------------------------------------
+<-- vpklib
+done
+-------------------------------------------------------
+--> vstdlib
+in progress
+-------------------------------------------------------
+<-- vstdlib
+done
+-------------------------------------------------------
+--> vtf
+in progress
+-------------------------------------------------------
+<-- vtf
+done
