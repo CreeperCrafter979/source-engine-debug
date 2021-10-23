@@ -1,13 +1,1146 @@
+<waflib.extras.clang_compilation_database.ClangDbContext object at 0xb6097e10>
+<waflib.extras.clang_compilation_database.ClangDbContext object at 0xb6097e10>
+<waflib.extras.clang_compilation_database.ClangDbContext object at 0xb6097e10>
+<waflib.extras.clang_compilation_database.ClangDbContext object at 0xb6097e10>
+<waflib.extras.clang_compilation_database.ClangDbContext object at 0xb6097e10>
+<waflib.extras.clang_compilation_database.ClangDbContext object at 0xb6097e10>
+<waflib.extras.clang_compilation_database.ClangDbContext object at 0xb6097e10>
+Build commands will be stored in build/compile_commands.json
+Waf: Entering directory `/home/pi/Downloads/source-engine/build'
+<waflib.Build.BuildContext object at 0xb61ba930>
+<waflib.Build.BuildContext object at 0xb61ba930>
+<waflib.Build.BuildContext object at 0xb61ba930>
+<waflib.Build.BuildContext object at 0xb61ba930>
+<waflib.Build.BuildContext object at 0xb61ba930>
+<waflib.Build.BuildContext object at 0xb61ba930>
+<waflib.Build.BuildContext object at 0xb61ba930>
+[  88/2160] Compiling tier2/tier2.cpp
+12:17:29 runner ['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wall', '-fdiagnostics-color=always', '-Wcast-align', '-Wuninitialized', '-Winit-self', '-Wstrict-aliasing', '-faligned-new', '-Itier2', '-I../tier2', '-Icommon', '-I../common', '-Ipublic', '-I../public', '-Ipublic/tier0', '-I../public/tier0', '-Ipublic/tier1', '-I../public/tier1', '-Ipublic/tier2', '-I../public/tier2', '-I/usr/local/include/SDL2', '-I/opt/vc/include', '-I/opt/vc/include/interface/vcos/pthreads', '-I/opt/vc/include/interface/vmcs_host/linux', '-I../common', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-DHAVE_SDL2=1', '-DHAVE_FT2=1', '-DHAVE_FC=1', '-DHAVE_OPENAL=1', '-DHAVE_JPEG=1', '-DHAVE_PNG=1', '-DHAVE_CURL=1', '-DHAVE_ZLIB=1', '../tier2/tier2.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/tier2/tier2.cpp.33.o']
+[  91/2160] Compiling tier2/renderutils.cpp
+12:17:30 runner ['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wall', '-fdiagnostics-color=always', '-Wcast-align', '-Wuninitialized', '-Winit-self', '-Wstrict-aliasing', '-faligned-new', '-Itier2', '-I../tier2', '-Icommon', '-I../common', '-Ipublic', '-I../public', '-Ipublic/tier0', '-I../public/tier0', '-Ipublic/tier1', '-I../public/tier1', '-Ipublic/tier2', '-I../public/tier2', '-I/usr/local/include/SDL2', '-I/opt/vc/include', '-I/opt/vc/include/interface/vcos/pthreads', '-I/opt/vc/include/interface/vmcs_host/linux', '-I../common', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-DHAVE_SDL2=1', '-DHAVE_FT2=1', '-DHAVE_FC=1', '-DHAVE_OPENAL=1', '-DHAVE_JPEG=1', '-DHAVE_PNG=1', '-DHAVE_CURL=1', '-DHAVE_ZLIB=1', '../tier2/renderutils.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/tier2/renderutils.cpp.33.o']
+[  93/2160] Compiling tier2/meshutils.cpp
+[  95/2160] Compiling public/materialsystem/MaterialSystemUtil.cpp
+12:17:30 runner ['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wall', '-fdiagnostics-color=always', '-Wcast-align', '-Wuninitialized', '-Winit-self', '-Wstrict-aliasing', '-faligned-new', '-Itier2', '-I../tier2', '-Icommon', '-I../common', '-Ipublic', '-I../public', '-Ipublic/tier0', '-I../public/tier0', '-Ipublic/tier1', '-I../public/tier1', '-Ipublic/tier2', '-I../public/tier2', '-I/usr/local/include/SDL2', '-I/opt/vc/include', '-I/opt/vc/include/interface/vcos/pthreads', '-I/opt/vc/include/interface/vmcs_host/linux', '-I../common', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-DHAVE_SDL2=1', '-DHAVE_FT2=1', '-DHAVE_FC=1', '-DHAVE_OPENAL=1', '-DHAVE_JPEG=1', '-DHAVE_PNG=1', '-DHAVE_CURL=1', '-DHAVE_ZLIB=1', '../tier2/meshutils.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/tier2/meshutils.cpp.33.o']
+12:17:30 runner ['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wall', '-fdiagnostics-color=always', '-Wcast-align', '-Wuninitialized', '-Winit-self', '-Wstrict-aliasing', '-faligned-new', '-Itier2', '-I../tier2', '-Icommon', '-I../common', '-Ipublic', '-I../public', '-Ipublic/tier0', '-I../public/tier0', '-Ipublic/tier1', '-I../public/tier1', '-Ipublic/tier2', '-I../public/tier2', '-I/usr/local/include/SDL2', '-I/opt/vc/include', '-I/opt/vc/include/interface/vcos/pthreads', '-I/opt/vc/include/interface/vmcs_host/linux', '-I../common', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-DHAVE_SDL2=1', '-DHAVE_FT2=1', '-DHAVE_FC=1', '-DHAVE_OPENAL=1', '-DHAVE_JPEG=1', '-DHAVE_PNG=1', '-DHAVE_CURL=1', '-DHAVE_ZLIB=1', '../public/materialsystem/MaterialSystemUtil.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/public/materialsystem/MaterialSystemUtil.cpp.33.o']
+[  99/2160] Compiling public/map_utils.cpp
+12:17:30 runner ['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wall', '-fdiagnostics-color=always', '-Wcast-align', '-Wuninitialized', '-Winit-self', '-Wstrict-aliasing', '-faligned-new', '-Itier2', '-I../tier2', '-Icommon', '-I../common', '-Ipublic', '-I../public', '-Ipublic/tier0', '-I../public/tier0', '-Ipublic/tier1', '-I../public/tier1', '-Ipublic/tier2', '-I../public/tier2', '-I/usr/local/include/SDL2', '-I/opt/vc/include', '-I/opt/vc/include/interface/vcos/pthreads', '-I/opt/vc/include/interface/vmcs_host/linux', '-I../common', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-DHAVE_SDL2=1', '-DHAVE_FT2=1', '-DHAVE_FC=1', '-DHAVE_OPENAL=1', '-DHAVE_JPEG=1', '-DHAVE_PNG=1', '-DHAVE_CURL=1', '-DHAVE_ZLIB=1', '../public/map_utils.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/public/map_utils.cpp.33.o']
+In file included from ../public/map_utils.cpp:8:
+../public/bspfile.h:854: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( default:4201 ) // C4201: nonstandard extension used: nameless struct/union
+ 
+In file included from ../public/mathlib/vector.h:32,
+                 from ../public/map_utils.cpp:7:
+../public/tier0/threadtools.h: In member function ‘bool CThreadSpinRWLock::AssignIf(const CThreadSpinRWLock::LockInfo_t&, const CThreadSpinRWLock::LockInfo_t&)’:
+../public/tier0/threadtools.h:1743:48: warning: cast from ‘volatile CThreadSpinRWLock::LockInfo_t*’ to ‘int64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  return ThreadInterlockedAssignIf64( (int64 *)&m_lockInfo, *((int64 *)&newValue), *((int64 *)&comperand) );
+                                                ^~~~~~~~~~
+../public/tier0/threadtools.h:1743:72: warning: cast from ‘const CThreadSpinRWLock::LockInfo_t*’ to ‘int64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  return ThreadInterlockedAssignIf64( (int64 *)&m_lockInfo, *((int64 *)&newValue), *((int64 *)&comperand) );
+                                                                        ^~~~~~~~
+../public/tier0/threadtools.h:1743:95: warning: cast from ‘const CThreadSpinRWLock::LockInfo_t*’ to ‘int64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  return ThreadInterlockedAssignIf64( (int64 *)&m_lockInfo, *((int64 *)&newValue), *((int64 *)&comperand) );
+                                                                                               ^~~~~~~~~
+In file included from ../public/tier1/utlmemory.h:22,
+                 from ../public/tier1/utlvector.h:24,
+                 from ../public/datamap.h:18,
+                 from ../public/bspfile.h:16,
+                 from ../public/map_utils.cpp:8:
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAligned(size_t, size_t)’:
+../public/tier0/memalloc.h:190:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAligned(size_t, size_t, const char*, int)’:
+../public/tier0/memalloc.h:208:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAlignedUnattributed(size_t, size_t)’:
+../public/tier0/memalloc.h:226:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAlignedFileLine(size_t, size_t, const char*, int)’:
+../public/tier0/memalloc.h:244:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+
+[ 100/2160] Compiling tier2/keybindings.cpp
+12:17:31 runner ['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wall', '-fdiagnostics-color=always', '-Wcast-align', '-Wuninitialized', '-Winit-self', '-Wstrict-aliasing', '-faligned-new', '-Itier2', '-I../tier2', '-Icommon', '-I../common', '-Ipublic', '-I../public', '-Ipublic/tier0', '-I../public/tier0', '-Ipublic/tier1', '-I../public/tier1', '-Ipublic/tier2', '-I../public/tier2', '-I/usr/local/include/SDL2', '-I/opt/vc/include', '-I/opt/vc/include/interface/vcos/pthreads', '-I/opt/vc/include/interface/vmcs_host/linux', '-I../common', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-DHAVE_SDL2=1', '-DHAVE_FT2=1', '-DHAVE_FC=1', '-DHAVE_OPENAL=1', '-DHAVE_JPEG=1', '-DHAVE_PNG=1', '-DHAVE_CURL=1', '-DHAVE_ZLIB=1', '../tier2/keybindings.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/tier2/keybindings.cpp.33.o']
+In file included from ../public/mathlib/ssemath.h:12,
+                 from ../public/mathlib/lightdesc.h:11,
+                 from ../public/materialsystem/imaterialsystem.h:245,
+                 from ../tier2/tier2.cpp:10:
+../common/sse2neon.h:122:2: error: #error "Unsupported target. Must be either ARMv7-A+NEON or ARMv8-A."
+ #error "Unsupported target. Must be either ARMv7-A+NEON or ARMv8-A."
+  ^~~~~
+In file included from ../public/tier1/utlvector.h:23,
+                 from ../public/tier1/convar.h:21,
+                 from ../public/tier1/tier1.h:16,
+                 from ../public/tier2/tier2.h:15,
+                 from ../tier2/tier2.cpp:7:
+../public/tier0/threadtools.h: In member function ‘bool CThreadSpinRWLock::AssignIf(const CThreadSpinRWLock::LockInfo_t&, const CThreadSpinRWLock::LockInfo_t&)’:
+../public/tier0/threadtools.h:1743:48: warning: cast from ‘volatile CThreadSpinRWLock::LockInfo_t*’ to ‘int64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  return ThreadInterlockedAssignIf64( (int64 *)&m_lockInfo, *((int64 *)&newValue), *((int64 *)&comperand) );
+                                                ^~~~~~~~~~
+../public/tier0/threadtools.h:1743:72: warning: cast from ‘const CThreadSpinRWLock::LockInfo_t*’ to ‘int64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  return ThreadInterlockedAssignIf64( (int64 *)&m_lockInfo, *((int64 *)&newValue), *((int64 *)&comperand) );
+                                                                        ^~~~~~~~
+../public/tier0/threadtools.h:1743:95: warning: cast from ‘const CThreadSpinRWLock::LockInfo_t*’ to ‘int64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  return ThreadInterlockedAssignIf64( (int64 *)&m_lockInfo, *((int64 *)&newValue), *((int64 *)&comperand) );
+                                                                                               ^~~~~~~~~
+In file included from ../public/tier1/utlmemory.h:22,
+                 from ../public/tier1/utlvector.h:24,
+                 from ../public/tier1/convar.h:21,
+                 from ../public/tier1/tier1.h:16,
+                 from ../public/tier2/tier2.h:15,
+                 from ../tier2/tier2.cpp:7:
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAligned(size_t, size_t)’:
+../public/tier0/memalloc.h:190:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAligned(size_t, size_t, const char*, int)’:
+../public/tier0/memalloc.h:208:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAlignedUnattributed(size_t, size_t)’:
+../public/tier0/memalloc.h:226:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAlignedFileLine(size_t, size_t, const char*, int)’:
+../public/tier0/memalloc.h:244:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+In file included from ../public/materialsystem/imaterialsystem.h:27,
+                 from ../tier2/tier2.cpp:10:
+../public/bitmap/imageformat.h: In member function ‘BGRA8888_t& BGRA8888_t::operator=(const BGRA8888_t&)’:
+../public/bitmap/imageformat.h:185:22: warning: cast from ‘BGRA8888_t*’ to ‘unsigned int*’ increases required alignment of target type [-Wcast-align]
+   *( unsigned int * )this = *( unsigned int * )&in;
+                      ^~~~
+../public/bitmap/imageformat.h:185:49: warning: cast from ‘const BGRA8888_t*’ to ‘unsigned int*’ increases required alignment of target type [-Wcast-align]
+   *( unsigned int * )this = *( unsigned int * )&in;
+                                                 ^~
+../public/bitmap/imageformat.h: In member function ‘BGRX8888_t& BGRX8888_t::operator=(const BGRX8888_t&)’:
+../public/bitmap/imageformat.h:198:22: warning: cast from ‘BGRX8888_t*’ to ‘unsigned int*’ increases required alignment of target type [-Wcast-align]
+   *( unsigned int * )this = *( unsigned int * ) &in;
+                      ^~~~
+../public/bitmap/imageformat.h:198:50: warning: cast from ‘const BGRX8888_t*’ to ‘unsigned int*’ increases required alignment of target type [-Wcast-align]
+   *( unsigned int * )this = *( unsigned int * ) &in;
+                                                  ^~
+In file included from ../public/materialsystem/imaterialsystem.h:27,
+                 from ../tier2/tier2.cpp:10:
+../public/bitmap/imageformat.h: In constructor ‘ImageLoader::ResampleInfo_t::ResampleInfo_t()’:
+../public/bitmap/imageformat.h:454:7: warning: ‘ImageLoader::ResampleInfo_t::m_nFlags’ will be initialized after [-Wreorder]
+   int m_nFlags;
+       ^~~~~~~~
+../public/bitmap/imageformat.h:451:9: warning:   ‘float ImageLoader::ResampleInfo_t::m_flAlphaThreshhold’ [-Wreorder]
+   float m_flAlphaThreshhold;
+         ^~~~~~~~~~~~~~~~~~~
+../public/bitmap/imageformat.h:428:3: warning:   when initialized here [-Wreorder]
+   ResampleInfo_t() : m_nFlags(0), m_flAlphaThreshhold(0.4f), m_flAlphaHiFreqThreshhold(0.4f), m_nSrcDepth(1), m_nDestDepth(1)
+   ^~~~~~~~~~~~~~
+../public/bitmap/imageformat.h:452:9: warning: ‘ImageLoader::ResampleInfo_t::m_flAlphaHiFreqThreshhold’ will be initialized after [-Wreorder]
+   float m_flAlphaHiFreqThreshhold;
+         ^~~~~~~~~~~~~~~~~~~~~~~~~
+../public/bitmap/imageformat.h:439:7: warning:   ‘int ImageLoader::ResampleInfo_t::m_nSrcDepth’ [-Wreorder]
+   int m_nSrcDepth;
+       ^~~~~~~~~~~
+../public/bitmap/imageformat.h:428:3: warning:   when initialized here [-Wreorder]
+   ResampleInfo_t() : m_nFlags(0), m_flAlphaThreshhold(0.4f), m_flAlphaHiFreqThreshhold(0.4f), m_nSrcDepth(1), m_nDestDepth(1)
+   ^~~~~~~~~~~~~~
+In file included from ../public/mathlib/ssemath.h:12,
+                 from ../public/mathlib/lightdesc.h:11,
+                 from ../public/materialsystem/imaterialsystem.h:245,
+                 from ../tier2/tier2.cpp:10:
+../common/sse2neon.h: In function ‘__m128i _mm_sll_epi16(__m128i, __m128i)’:
+../common/sse2neon.h:2652:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘__m128i _mm_sll_epi32(__m128i, __m128i)’:
+../common/sse2neon.h:2671:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘__m128i _mm_sll_epi64(__m128i, __m128i)’:
+../common/sse2neon.h:2688:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘__m128i _mm_srl_epi16(__m128i, __m128i)’:
+../common/sse2neon.h:2707:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘__m128i _mm_srl_epi32(__m128i, __m128i)’:
+../common/sse2neon.h:2726:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘__m128i _mm_srl_epi64(__m128i, __m128i)’:
+../common/sse2neon.h:2743:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘void _mm_maskmoveu_si128(__m128i, __m128i, char*)’:
+../common/sse2neon.h:3792:44: warning: cast from ‘char*’ to ‘const float*’ increases required alignment of target type [-Wcast-align]
+     __m128 b = _mm_load_ps((const float *) mem_addr);
+                                            ^~~~~~~~
+../common/sse2neon.h: In function ‘__m128i _mm_aesenclast_si128(__m128i, __m128i)’:
+../common/sse2neon.h:7302:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+         [0] = {SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 0)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7303:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 5)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7304:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 10)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7305:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 15)]},
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7306:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+         [1] = {SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 4)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7307:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 9)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7308:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 14)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7309:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 3)]},
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7310:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+         [2] = {SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 8)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7311:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 13)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7312:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 2)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7313:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 7)]},
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7314:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+         [3] = {SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 12)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7315:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 1)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7316:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 6)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7317:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 11)]},
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7320:36: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+         vreinterpretq_nth_u8_m128i(a, i) =
+                                    ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7321:58: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+             v[i / 4][i % 4] ^ vreinterpretq_nth_u8_m128i(RoundKey, i);
+                                                          ^~~~~~~~
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+In file included from ../public/mathlib/ssemath.h:12,
+                 from ../public/mathlib/lightdesc.h:11,
+                 from ../public/materialsystem/imaterialsystem.h:245,
+                 from ../tier2/tier2.cpp:10:
+../common/sse2neon.h: In function ‘void _mm_maskmove_si64(__m64, __m64, char*)’:
+../common/sse2neon.h:7498:44: warning: cast from ‘char*’ to ‘const float*’ increases required alignment of target type [-Wcast-align]
+     __m128 b = _mm_load_ps((const float *) mem_addr);
+                                            ^~~~~~~~
+../common/sse2neon.h: At global scope:
+../common/sse2neon.h:7595:9: warning: ‘#pragma GCC pop_options’ without a corresponding ‘#pragma GCC push_options’ [-Wpragmas]
+ #pragma GCC pop_options
+         ^~~
+In file included from ../public/mathlib/lightdesc.h:11,
+                 from ../public/materialsystem/imaterialsystem.h:245,
+                 from ../tier2/tier2.cpp:10:
+../public/mathlib/ssemath.h: In function ‘void ConvertStoreAsIntsSIMD(intx4*, const fltx4&)’:
+../public/mathlib/ssemath.h:2423:41: warning: cast from ‘int*’ to ‘__m64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  *reinterpret_cast<__m64 *>(&(*pDest)[0]) = bottom;
+                                         ^
+../public/mathlib/ssemath.h:2424:41: warning: cast from ‘int*’ to ‘__m64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  *reinterpret_cast<__m64 *>(&(*pDest)[2]) = top;
+                                         ^
+In file included from ../public/tier1/utlsymbol.h:17,
+                 from ../public/filesystem.h:17,
+                 from ../tier2/tier2.cpp:9:
+../public/tier1/utlrbtree.h: In instantiation of ‘CUtlRBTree<T, I, L, M>::CUtlRBTree(int, int, const LessFunc_t&) [with T = CUtlSymbolTable::CStringPoolIndex; I = short unsigned int; L = CUtlSymbolTable::CLess; M = CUtlMemory<UtlRBTreeNode_t<CUtlSymbolTable::CStringPoolIndex, short unsigned int>, short unsigned int>; CUtlRBTree<T, I, L, M>::LessFunc_t = CUtlSymbolTable::CLess]’:
+../public/tier1/utlsymbol.h:149:114:   required from here
+../public/tier1/utlrbtree.h:300:4: warning: ‘CUtlRBTree<CUtlSymbolTable::CStringPoolIndex, short unsigned int, CUtlSymbolTable::CLess>::m_Elements’ will be initialized after [-Wreorder]
+  M m_Elements;
+    ^~~~~~~~~~
+../public/tier1/utlrbtree.h:298:13: warning:   ‘CUtlRBTree<CUtlSymbolTable::CStringPoolIndex, short unsigned int, CUtlSymbolTable::CLess>::LessFunc_t CUtlRBTree<CUtlSymbolTable::CStringPoolIndex, short unsigned int, CUtlSymbolTable::CLess>::m_LessFunc’ [-Wreorder]
+  LessFunc_t m_LessFunc;
+             ^~~~~~~~~~
+../public/tier1/utlrbtree.h:378:8: warning:   when initialized here [-Wreorder]
+ inline CUtlRBTree<T, I, L, M>::CUtlRBTree( int growSize, int initSize, const LessFunc_t &lessfunc ) :
+        ^~~~~~~~~~~~~~~~~~~~~~
+
+In file included from ../public/mathlib/ssemath.h:12,
+                 from ../public/mathlib/lightdesc.h:11,
+                 from ../public/materialsystem/imaterialsystem.h:245,
+                 from ../public/materialsystem/MaterialSystemUtil.h:17,
+                 from ../public/materialsystem/MaterialSystemUtil.cpp:9:
+../common/sse2neon.h:122:2: error: #error "Unsupported target. Must be either ARMv7-A+NEON or ARMv8-A."
+ #error "Unsupported target. Must be either ARMv7-A+NEON or ARMv8-A."
+  ^~~~~
+In file included from ../public/materialsystem/MaterialSystemUtil.h:16,
+                 from ../public/materialsystem/MaterialSystemUtil.cpp:9:
+../public/bitmap/imageformat.h: In member function ‘BGRA8888_t& BGRA8888_t::operator=(const BGRA8888_t&)’:
+../public/bitmap/imageformat.h:185:22: warning: cast from ‘BGRA8888_t*’ to ‘unsigned int*’ increases required alignment of target type [-Wcast-align]
+   *( unsigned int * )this = *( unsigned int * )&in;
+                      ^~~~
+../public/bitmap/imageformat.h:185:49: warning: cast from ‘const BGRA8888_t*’ to ‘unsigned int*’ increases required alignment of target type [-Wcast-align]
+   *( unsigned int * )this = *( unsigned int * )&in;
+                                                 ^~
+../public/bitmap/imageformat.h: In member function ‘BGRX8888_t& BGRX8888_t::operator=(const BGRX8888_t&)’:
+../public/bitmap/imageformat.h:198:22: warning: cast from ‘BGRX8888_t*’ to ‘unsigned int*’ increases required alignment of target type [-Wcast-align]
+   *( unsigned int * )this = *( unsigned int * ) &in;
+                      ^~~~
+../public/bitmap/imageformat.h:198:50: warning: cast from ‘const BGRX8888_t*’ to ‘unsigned int*’ increases required alignment of target type [-Wcast-align]
+   *( unsigned int * )this = *( unsigned int * ) &in;
+                                                  ^~
+In file included from ../public/materialsystem/MaterialSystemUtil.h:16,
+                 from ../public/materialsystem/MaterialSystemUtil.cpp:9:
+../public/bitmap/imageformat.h: In constructor ‘ImageLoader::ResampleInfo_t::ResampleInfo_t()’:
+../public/bitmap/imageformat.h:454:7: warning: ‘ImageLoader::ResampleInfo_t::m_nFlags’ will be initialized after [-Wreorder]
+   int m_nFlags;
+       ^~~~~~~~
+../public/bitmap/imageformat.h:451:9: warning:   ‘float ImageLoader::ResampleInfo_t::m_flAlphaThreshhold’ [-Wreorder]
+   float m_flAlphaThreshhold;
+         ^~~~~~~~~~~~~~~~~~~
+../public/bitmap/imageformat.h:428:3: warning:   when initialized here [-Wreorder]
+   ResampleInfo_t() : m_nFlags(0), m_flAlphaThreshhold(0.4f), m_flAlphaHiFreqThreshhold(0.4f), m_nSrcDepth(1), m_nDestDepth(1)
+   ^~~~~~~~~~~~~~
+../public/bitmap/imageformat.h:452:9: warning: ‘ImageLoader::ResampleInfo_t::m_flAlphaHiFreqThreshhold’ will be initialized after [-Wreorder]
+   float m_flAlphaHiFreqThreshhold;
+         ^~~~~~~~~~~~~~~~~~~~~~~~~
+../public/bitmap/imageformat.h:439:7: warning:   ‘int ImageLoader::ResampleInfo_t::m_nSrcDepth’ [-Wreorder]
+   int m_nSrcDepth;
+       ^~~~~~~~~~~
+../public/bitmap/imageformat.h:428:3: warning:   when initialized here [-Wreorder]
+   ResampleInfo_t() : m_nFlags(0), m_flAlphaThreshhold(0.4f), m_flAlphaHiFreqThreshhold(0.4f), m_nSrcDepth(1), m_nDestDepth(1)
+   ^~~~~~~~~~~~~~
+In file included from ../public/mathlib/vector.h:32,
+                 from ../public/materialsystem/imaterialsystem.h:21,
+                 from ../public/materialsystem/MaterialSystemUtil.h:17,
+                 from ../public/materialsystem/MaterialSystemUtil.cpp:9:
+../public/tier0/threadtools.h: In member function ‘bool CThreadSpinRWLock::AssignIf(const CThreadSpinRWLock::LockInfo_t&, const CThreadSpinRWLock::LockInfo_t&)’:
+../public/tier0/threadtools.h:1743:48: warning: cast from ‘volatile CThreadSpinRWLock::LockInfo_t*’ to ‘int64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  return ThreadInterlockedAssignIf64( (int64 *)&m_lockInfo, *((int64 *)&newValue), *((int64 *)&comperand) );
+                                                ^~~~~~~~~~
+../public/tier0/threadtools.h:1743:72: warning: cast from ‘const CThreadSpinRWLock::LockInfo_t*’ to ‘int64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  return ThreadInterlockedAssignIf64( (int64 *)&m_lockInfo, *((int64 *)&newValue), *((int64 *)&comperand) );
+                                                                        ^~~~~~~~
+../public/tier0/threadtools.h:1743:95: warning: cast from ‘const CThreadSpinRWLock::LockInfo_t*’ to ‘int64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  return ThreadInterlockedAssignIf64( (int64 *)&m_lockInfo, *((int64 *)&newValue), *((int64 *)&comperand) );
+                                                                                               ^~~~~~~~~
+In file included from ../public/tier1/utlmemory.h:22,
+                 from ../public/tier1/utlvector.h:24,
+                 from ../public/datamap.h:18,
+                 from ../public/vtf/vtf.h:437,
+                 from ../public/materialsystem/imaterialsystem.h:29,
+                 from ../public/materialsystem/MaterialSystemUtil.h:17,
+                 from ../public/materialsystem/MaterialSystemUtil.cpp:9:
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAligned(size_t, size_t)’:
+../public/tier0/memalloc.h:190:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAligned(size_t, size_t, const char*, int)’:
+../public/tier0/memalloc.h:208:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAlignedUnattributed(size_t, size_t)’:
+../public/tier0/memalloc.h:226:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAlignedFileLine(size_t, size_t, const char*, int)’:
+../public/tier0/memalloc.h:244:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+In file included from ../public/mathlib/ssemath.h:12,
+                 from ../public/mathlib/lightdesc.h:11,
+                 from ../public/materialsystem/imaterialsystem.h:245,
+                 from ../public/materialsystem/MaterialSystemUtil.h:17,
+                 from ../public/materialsystem/MaterialSystemUtil.cpp:9:
+../common/sse2neon.h: In function ‘__m128i _mm_sll_epi16(__m128i, __m128i)’:
+../common/sse2neon.h:2652:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘__m128i _mm_sll_epi32(__m128i, __m128i)’:
+../common/sse2neon.h:2671:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘__m128i _mm_sll_epi64(__m128i, __m128i)’:
+../common/sse2neon.h:2688:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘__m128i _mm_srl_epi16(__m128i, __m128i)’:
+../common/sse2neon.h:2707:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘__m128i _mm_srl_epi32(__m128i, __m128i)’:
+../common/sse2neon.h:2726:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘__m128i _mm_srl_epi64(__m128i, __m128i)’:
+../common/sse2neon.h:2743:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘void _mm_maskmoveu_si128(__m128i, __m128i, char*)’:
+../common/sse2neon.h:3792:44: warning: cast from ‘char*’ to ‘const float*’ increases required alignment of target type [-Wcast-align]
+     __m128 b = _mm_load_ps((const float *) mem_addr);
+                                            ^~~~~~~~
+../common/sse2neon.h: In function ‘__m128i _mm_aesenclast_si128(__m128i, __m128i)’:
+../common/sse2neon.h:7302:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+         [0] = {SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 0)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7303:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 5)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7304:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 10)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7305:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 15)]},
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7306:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+         [1] = {SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 4)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7307:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 9)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7308:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 14)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7309:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 3)]},
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7310:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+         [2] = {SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 8)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7311:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 13)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7312:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 2)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7313:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 7)]},
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7314:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+         [3] = {SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 12)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7315:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 1)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7316:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 6)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7317:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 11)]},
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7320:36: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+         vreinterpretq_nth_u8_m128i(a, i) =
+                                    ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7321:58: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+             v[i / 4][i % 4] ^ vreinterpretq_nth_u8_m128i(RoundKey, i);
+                                                          ^~~~~~~~
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+In file included from ../public/mathlib/ssemath.h:12,
+                 from ../public/mathlib/lightdesc.h:11,
+                 from ../public/materialsystem/imaterialsystem.h:245,
+                 from ../public/materialsystem/MaterialSystemUtil.h:17,
+                 from ../public/materialsystem/MaterialSystemUtil.cpp:9:
+../common/sse2neon.h: In function ‘void _mm_maskmove_si64(__m64, __m64, char*)’:
+../common/sse2neon.h:7498:44: warning: cast from ‘char*’ to ‘const float*’ increases required alignment of target type [-Wcast-align]
+     __m128 b = _mm_load_ps((const float *) mem_addr);
+                                            ^~~~~~~~
+../common/sse2neon.h: At global scope:
+../common/sse2neon.h:7595:9: warning: ‘#pragma GCC pop_options’ without a corresponding ‘#pragma GCC push_options’ [-Wpragmas]
+ #pragma GCC pop_options
+         ^~~
+In file included from ../public/mathlib/lightdesc.h:11,
+                 from ../public/materialsystem/imaterialsystem.h:245,
+                 from ../public/materialsystem/MaterialSystemUtil.h:17,
+                 from ../public/materialsystem/MaterialSystemUtil.cpp:9:
+../public/mathlib/ssemath.h: In function ‘void ConvertStoreAsIntsSIMD(intx4*, const fltx4&)’:
+../public/mathlib/ssemath.h:2423:41: warning: cast from ‘int*’ to ‘__m64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  *reinterpret_cast<__m64 *>(&(*pDest)[0]) = bottom;
+                                         ^
+../public/mathlib/ssemath.h:2424:41: warning: cast from ‘int*’ to ‘__m64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  *reinterpret_cast<__m64 *>(&(*pDest)[2]) = top;
+                                         ^
+In file included from ../public/tier1/KeyValues.h:26,
+                 from ../public/materialsystem/MaterialSystemUtil.cpp:13:
+../public/Color.h: In constructor ‘Color::Color()’:
+../public/Color.h:25:12: warning: cast from ‘Color*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+   *((int *)this) = 0;
+            ^~~~
+../public/Color.h: In member function ‘void Color::SetRawColor(int)’:
+../public/Color.h:59:12: warning: cast from ‘Color*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+   *((int *)this) = color32;
+            ^~~~
+../public/Color.h: In member function ‘int Color::GetRawColor() const’:
+../public/Color.h:64:19: warning: cast from ‘const Color*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+   return *((int *)this);
+                   ^~~~
+../public/Color.h: In member function ‘bool Color::operator==(const Color&) const’:
+../public/Color.h:84:21: warning: cast from ‘const Color*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+   return ( *((int *)this) == *((int *)&rhs) );
+                     ^~~~
+../public/Color.h:84:40: warning: cast from ‘const Color*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+   return ( *((int *)this) == *((int *)&rhs) );
+                                        ^~~
+
+In file included from ../public/mathlib/vector.h:32,
+                 from ../public/mathlib/mathlib.h:14,
+                 from ../public/tier1/utlmemory.h:20,
+                 from ../public/tier1/utlstring.h:14,
+                 from ../public/tier2/keybindings.h:16,
+                 from ../tier2/keybindings.cpp:9:
+../public/tier0/threadtools.h: In member function ‘bool CThreadSpinRWLock::AssignIf(const CThreadSpinRWLock::LockInfo_t&, const CThreadSpinRWLock::LockInfo_t&)’:
+../public/tier0/threadtools.h:1743:48: warning: cast from ‘volatile CThreadSpinRWLock::LockInfo_t*’ to ‘int64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  return ThreadInterlockedAssignIf64( (int64 *)&m_lockInfo, *((int64 *)&newValue), *((int64 *)&comperand) );
+                                                ^~~~~~~~~~
+../public/tier0/threadtools.h:1743:72: warning: cast from ‘const CThreadSpinRWLock::LockInfo_t*’ to ‘int64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  return ThreadInterlockedAssignIf64( (int64 *)&m_lockInfo, *((int64 *)&newValue), *((int64 *)&comperand) );
+                                                                        ^~~~~~~~
+../public/tier0/threadtools.h:1743:95: warning: cast from ‘const CThreadSpinRWLock::LockInfo_t*’ to ‘int64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  return ThreadInterlockedAssignIf64( (int64 *)&m_lockInfo, *((int64 *)&newValue), *((int64 *)&comperand) );
+                                                                                               ^~~~~~~~~
+In file included from ../public/tier1/utlmemory.h:22,
+                 from ../public/tier1/utlstring.h:14,
+                 from ../public/tier2/keybindings.h:16,
+                 from ../tier2/keybindings.cpp:9:
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAligned(size_t, size_t)’:
+../public/tier0/memalloc.h:190:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAligned(size_t, size_t, const char*, int)’:
+../public/tier0/memalloc.h:208:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAlignedUnattributed(size_t, size_t)’:
+../public/tier0/memalloc.h:226:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAlignedFileLine(size_t, size_t, const char*, int)’:
+../public/tier0/memalloc.h:244:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+
+In file included from ../public/mathlib/ssemath.h:12,
+                 from ../public/mathlib/lightdesc.h:11,
+                 from ../public/materialsystem/imaterialsystem.h:245,
+                 from ../tier2/renderutils.cpp:10:
+../common/sse2neon.h:122:2: error: #error "Unsupported target. Must be either ARMv7-A+NEON or ARMv8-A."
+ #error "Unsupported target. Must be either ARMv7-A+NEON or ARMv8-A."
+  ^~~~~
+In file included from ../public/togl/rendermechanism.h:46,
+                 from ../tier2/renderutils.cpp:15:
+../public/togl/linuxwin/cglmtex.h:149: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( push )
+ 
+../public/togl/linuxwin/cglmtex.h:150: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4200 )
+ 
+../public/togl/linuxwin/cglmtex.h:173: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( pop )
+ 
+In file included from ../public/tier1/utlvector.h:23,
+                 from ../public/tier1/convar.h:21,
+                 from ../public/tier1/tier1.h:16,
+                 from ../public/tier2/tier2.h:15,
+                 from ../public/tier2/renderutils.h:14,
+                 from ../tier2/renderutils.cpp:7:
+../public/tier0/threadtools.h: In member function ‘bool CThreadSpinRWLock::AssignIf(const CThreadSpinRWLock::LockInfo_t&, const CThreadSpinRWLock::LockInfo_t&)’:
+../public/tier0/threadtools.h:1743:48: warning: cast from ‘volatile CThreadSpinRWLock::LockInfo_t*’ to ‘int64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  return ThreadInterlockedAssignIf64( (int64 *)&m_lockInfo, *((int64 *)&newValue), *((int64 *)&comperand) );
+                                                ^~~~~~~~~~
+../public/tier0/threadtools.h:1743:72: warning: cast from ‘const CThreadSpinRWLock::LockInfo_t*’ to ‘int64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  return ThreadInterlockedAssignIf64( (int64 *)&m_lockInfo, *((int64 *)&newValue), *((int64 *)&comperand) );
+                                                                        ^~~~~~~~
+../public/tier0/threadtools.h:1743:95: warning: cast from ‘const CThreadSpinRWLock::LockInfo_t*’ to ‘int64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  return ThreadInterlockedAssignIf64( (int64 *)&m_lockInfo, *((int64 *)&newValue), *((int64 *)&comperand) );
+                                                                                               ^~~~~~~~~
+In file included from ../public/tier1/utlmemory.h:22,
+                 from ../public/tier1/utlvector.h:24,
+                 from ../public/tier1/convar.h:21,
+                 from ../public/tier1/tier1.h:16,
+                 from ../public/tier2/tier2.h:15,
+                 from ../public/tier2/renderutils.h:14,
+                 from ../tier2/renderutils.cpp:7:
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAligned(size_t, size_t)’:
+../public/tier0/memalloc.h:190:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAligned(size_t, size_t, const char*, int)’:
+../public/tier0/memalloc.h:208:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAlignedUnattributed(size_t, size_t)’:
+../public/tier0/memalloc.h:226:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+../public/tier0/memalloc.h: In function ‘void* MemAlloc_AllocAlignedFileLine(size_t, size_t, const char*, int)’:
+../public/tier0/memalloc.h:244:28: warning: cast from ‘unsigned char*’ to ‘unsigned char**’ increases required alignment of target type [-Wcast-align]
+  ((unsigned char**)(pResult))[-1] = pAlloc;
+                            ^
+In file included from ../public/tier2/renderutils.h:15,
+                 from ../tier2/renderutils.cpp:7:
+../public/Color.h: In constructor ‘Color::Color()’:
+../public/Color.h:25:12: warning: cast from ‘Color*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+   *((int *)this) = 0;
+            ^~~~
+../public/Color.h: In member function ‘void Color::SetRawColor(int)’:
+../public/Color.h:59:12: warning: cast from ‘Color*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+   *((int *)this) = color32;
+            ^~~~
+../public/Color.h: In member function ‘int Color::GetRawColor() const’:
+../public/Color.h:64:19: warning: cast from ‘const Color*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+   return *((int *)this);
+                   ^~~~
+../public/Color.h: In member function ‘bool Color::operator==(const Color&) const’:
+../public/Color.h:84:21: warning: cast from ‘const Color*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+   return ( *((int *)this) == *((int *)&rhs) );
+                     ^~~~
+../public/Color.h:84:40: warning: cast from ‘const Color*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+   return ( *((int *)this) == *((int *)&rhs) );
+                                        ^~~
+In file included from ../public/materialsystem/imaterialsystem.h:27,
+                 from ../tier2/renderutils.cpp:10:
+../public/bitmap/imageformat.h: In member function ‘BGRA8888_t& BGRA8888_t::operator=(const BGRA8888_t&)’:
+../public/bitmap/imageformat.h:185:22: warning: cast from ‘BGRA8888_t*’ to ‘unsigned int*’ increases required alignment of target type [-Wcast-align]
+   *( unsigned int * )this = *( unsigned int * )&in;
+                      ^~~~
+../public/bitmap/imageformat.h:185:49: warning: cast from ‘const BGRA8888_t*’ to ‘unsigned int*’ increases required alignment of target type [-Wcast-align]
+   *( unsigned int * )this = *( unsigned int * )&in;
+                                                 ^~
+../public/bitmap/imageformat.h: In member function ‘BGRX8888_t& BGRX8888_t::operator=(const BGRX8888_t&)’:
+../public/bitmap/imageformat.h:198:22: warning: cast from ‘BGRX8888_t*’ to ‘unsigned int*’ increases required alignment of target type [-Wcast-align]
+   *( unsigned int * )this = *( unsigned int * ) &in;
+                      ^~~~
+../public/bitmap/imageformat.h:198:50: warning: cast from ‘const BGRX8888_t*’ to ‘unsigned int*’ increases required alignment of target type [-Wcast-align]
+   *( unsigned int * )this = *( unsigned int * ) &in;
+                                                  ^~
+In file included from ../public/materialsystem/imaterialsystem.h:27,
+                 from ../tier2/renderutils.cpp:10:
+../public/bitmap/imageformat.h: In constructor ‘ImageLoader::ResampleInfo_t::ResampleInfo_t()’:
+../public/bitmap/imageformat.h:454:7: warning: ‘ImageLoader::ResampleInfo_t::m_nFlags’ will be initialized after [-Wreorder]
+   int m_nFlags;
+       ^~~~~~~~
+../public/bitmap/imageformat.h:451:9: warning:   ‘float ImageLoader::ResampleInfo_t::m_flAlphaThreshhold’ [-Wreorder]
+   float m_flAlphaThreshhold;
+         ^~~~~~~~~~~~~~~~~~~
+../public/bitmap/imageformat.h:428:3: warning:   when initialized here [-Wreorder]
+   ResampleInfo_t() : m_nFlags(0), m_flAlphaThreshhold(0.4f), m_flAlphaHiFreqThreshhold(0.4f), m_nSrcDepth(1), m_nDestDepth(1)
+   ^~~~~~~~~~~~~~
+../public/bitmap/imageformat.h:452:9: warning: ‘ImageLoader::ResampleInfo_t::m_flAlphaHiFreqThreshhold’ will be initialized after [-Wreorder]
+   float m_flAlphaHiFreqThreshhold;
+         ^~~~~~~~~~~~~~~~~~~~~~~~~
+../public/bitmap/imageformat.h:439:7: warning:   ‘int ImageLoader::ResampleInfo_t::m_nSrcDepth’ [-Wreorder]
+   int m_nSrcDepth;
+       ^~~~~~~~~~~
+../public/bitmap/imageformat.h:428:3: warning:   when initialized here [-Wreorder]
+   ResampleInfo_t() : m_nFlags(0), m_flAlphaThreshhold(0.4f), m_flAlphaHiFreqThreshhold(0.4f), m_nSrcDepth(1), m_nDestDepth(1)
+   ^~~~~~~~~~~~~~
+In file included from ../public/mathlib/ssemath.h:12,
+                 from ../public/mathlib/lightdesc.h:11,
+                 from ../public/materialsystem/imaterialsystem.h:245,
+                 from ../tier2/renderutils.cpp:10:
+../common/sse2neon.h: In function ‘__m128i _mm_sll_epi16(__m128i, __m128i)’:
+../common/sse2neon.h:2652:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘__m128i _mm_sll_epi32(__m128i, __m128i)’:
+../common/sse2neon.h:2671:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘__m128i _mm_sll_epi64(__m128i, __m128i)’:
+../common/sse2neon.h:2688:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘__m128i _mm_srl_epi16(__m128i, __m128i)’:
+../common/sse2neon.h:2707:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘__m128i _mm_srl_epi32(__m128i, __m128i)’:
+../common/sse2neon.h:2726:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘__m128i _mm_srl_epi64(__m128i, __m128i)’:
+../common/sse2neon.h:2743:46: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+     uint64_t c = vreinterpretq_nth_u64_m128i(count, 0);
+                                              ^~~~~
+../common/sse2neon.h:339:58: note: in definition of macro ‘vreinterpretq_nth_u64_m128i’
+ #define vreinterpretq_nth_u64_m128i(x, n) (((SIMDVec *) &x)->m128_u64[n])
+                                                          ^
+../common/sse2neon.h: In function ‘void _mm_maskmoveu_si128(__m128i, __m128i, char*)’:
+../common/sse2neon.h:3792:44: warning: cast from ‘char*’ to ‘const float*’ increases required alignment of target type [-Wcast-align]
+     __m128 b = _mm_load_ps((const float *) mem_addr);
+                                            ^~~~~~~~
+../common/sse2neon.h: In function ‘__m128i _mm_aesenclast_si128(__m128i, __m128i)’:
+../common/sse2neon.h:7302:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+         [0] = {SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 0)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7303:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 5)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7304:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 10)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7305:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 15)]},
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7306:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+         [1] = {SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 4)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7307:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 9)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7308:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 14)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7309:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 3)]},
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7310:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+         [2] = {SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 8)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7311:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 13)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7312:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 2)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7313:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 7)]},
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7314:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+         [3] = {SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 12)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7315:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 1)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7316:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 6)],
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7317:57: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+                SSE2NEON_sbox[vreinterpretq_nth_u8_m128i(a, 11)]},
+                                                         ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7320:36: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+         vreinterpretq_nth_u8_m128i(a, i) =
+                                    ^
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+../common/sse2neon.h:7321:58: warning: cast from ‘__m128i*’ {aka ‘__vector(2) long long int*’} to ‘SIMDVec*’ increases required alignment of target type [-Wcast-align]
+             v[i / 4][i % 4] ^ vreinterpretq_nth_u8_m128i(RoundKey, i);
+                                                          ^~~~~~~~
+../common/sse2neon.h:341:57: note: in definition of macro ‘vreinterpretq_nth_u8_m128i’
+ #define vreinterpretq_nth_u8_m128i(x, n) (((SIMDVec *) &x)->m128_u8[n])
+                                                         ^
+In file included from ../public/mathlib/ssemath.h:12,
+                 from ../public/mathlib/lightdesc.h:11,
+                 from ../public/materialsystem/imaterialsystem.h:245,
+                 from ../tier2/renderutils.cpp:10:
+../common/sse2neon.h: In function ‘void _mm_maskmove_si64(__m64, __m64, char*)’:
+../common/sse2neon.h:7498:44: warning: cast from ‘char*’ to ‘const float*’ increases required alignment of target type [-Wcast-align]
+     __m128 b = _mm_load_ps((const float *) mem_addr);
+                                            ^~~~~~~~
+../common/sse2neon.h: At global scope:
+../common/sse2neon.h:7595:9: warning: ‘#pragma GCC pop_options’ without a corresponding ‘#pragma GCC push_options’ [-Wpragmas]
+ #pragma GCC pop_options
+         ^~~
+In file included from ../public/mathlib/lightdesc.h:11,
+                 from ../public/materialsystem/imaterialsystem.h:245,
+                 from ../tier2/renderutils.cpp:10:
+../public/mathlib/ssemath.h: In function ‘void ConvertStoreAsIntsSIMD(intx4*, const fltx4&)’:
+../public/mathlib/ssemath.h:2423:41: warning: cast from ‘int*’ to ‘__m64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  *reinterpret_cast<__m64 *>(&(*pDest)[0]) = bottom;
+                                         ^
+../public/mathlib/ssemath.h:2424:41: warning: cast from ‘int*’ to ‘__m64*’ {aka ‘long long int*’} increases required alignment of target type [-Wcast-align]
+  *reinterpret_cast<__m64 *>(&(*pDest)[2]) = top;
+                                         ^
+In file included from ../tier2/renderutils.cpp:11:
+../public/materialsystem/imesh.h: In function ‘float* OffsetFloatPointer(float*, int, int)’:
+../public/materialsystem/imesh.h:203:28: warning: cast from ‘unsigned char*’ to ‘float*’ increases required alignment of target type [-Wcast-align]
+   nVertexCount * vertexSize);
+                            ^
+../public/materialsystem/imesh.h: In function ‘const float* OffsetFloatPointer(const float*, int, int)’:
+../public/materialsystem/imesh.h:210:28: warning: cast from ‘const unsigned char*’ to ‘const float*’ increases required alignment of target type [-Wcast-align]
+   nVertexCount * vertexSize);
+                            ^
+../public/materialsystem/imesh.h: In function ‘void IncrementFloatPointer(float*&, int)’:
+../public/materialsystem/imesh.h:215:109: warning: cast from ‘unsigned char*’ to ‘float*’ increases required alignment of target type [-Wcast-align]
+  pBufferPointer = reinterpret_cast<float*>( reinterpret_cast<unsigned char*>( pBufferPointer ) + vertexSize );
+                                                                                                             ^
+In file included from ../public/materialsystem/imesh.h:374,
+                 from ../tier2/renderutils.cpp:11:
+../public/materialsystem/meshreader.h: In member function ‘const Vector& CMeshReader::Position(int) const’:
+../public/materialsystem/meshreader.h:187:72: warning: cast from ‘char*’ to ‘Vector*’ increases required alignment of target type [-Wcast-align]
+  return *(Vector*)((char*)m_pPosition + iVertex * m_VertexSize_Position);
+                                                                        ^
+../public/materialsystem/meshreader.h: In member function ‘const float* CMeshReader::TexCoord(int, int) const’:
+../public/materialsystem/meshreader.h:200:88: warning: cast from ‘char*’ to ‘float*’ increases required alignment of target type [-Wcast-align]
+  return (float*)( (char*)m_pTexCoord[iStage] + iVertex * m_VertexSize_TexCoord[iStage] );
+                                                                                        ^
+../public/materialsystem/meshreader.h: In member function ‘void CMeshReader::TexCoord2f(int, int, float&, float&) const’:
+../public/materialsystem/meshreader.h:206:92: warning: cast from ‘char*’ to ‘float*’ increases required alignment of target type [-Wcast-align]
+  float *p = (float*)( (char*)m_pTexCoord[iStage] + iVertex * m_VertexSize_TexCoord[iStage] );
+                                                                                            ^
+../public/materialsystem/meshreader.h: In member function ‘const Vector2D& CMeshReader::TexCoordVector2D(int, int) const’:
+../public/materialsystem/meshreader.h:214:98: warning: cast from ‘char*’ to ‘Vector2D*’ increases required alignment of target type [-Wcast-align]
+  Vector2D *p = (Vector2D*)( (char*)m_pTexCoord[iStage] + iVertex * m_VertexSize_TexCoord[iStage] );
+                                                                                                  ^
+../public/materialsystem/meshreader.h: In member function ‘float CMeshReader::Wrinkle(int) const’:
+../public/materialsystem/meshreader.h:221:71: warning: cast from ‘char*’ to ‘float*’ increases required alignment of target type [-Wcast-align]
+  return *(float*)( (char*)m_pWrinkle + iVertex * m_VertexSize_Wrinkle );
+                                                                       ^
+../public/materialsystem/meshreader.h: In member function ‘const Vector& CMeshReader::Normal(int) const’:
+../public/materialsystem/meshreader.h:232:92: warning: cast from ‘char*’ to ‘const float*’ increases required alignment of target type [-Wcast-align]
+  return *(const Vector *)(const float*)( (char*)m_pNormal + iVertex  * m_VertexSize_Normal );
+                                                                                            ^
+../public/materialsystem/meshreader.h: In member function ‘void CMeshReader::Normal(int, Vector&) const’:
+../public/materialsystem/meshreader.h:238:84: warning: cast from ‘char*’ to ‘const float*’ increases required alignment of target type [-Wcast-align]
+  const float *p = (const float*)( (char*)m_pNormal + iVertex * m_VertexSize_Normal );
+                                                                                    ^
+../public/materialsystem/meshreader.h: In member function ‘const Vector& CMeshReader::TangentS(int) const’:
+../public/materialsystem/meshreader.h:245:80: warning: cast from ‘char*’ to ‘const Vector*’ increases required alignment of target type [-Wcast-align]
+  return *(const Vector*)( (char*)m_pTangentS + iVertex * m_VertexSize_TangentS );
+                                                                                ^
+../public/materialsystem/meshreader.h: In member function ‘const Vector& CMeshReader::TangentT(int) const’:
+../public/materialsystem/meshreader.h:251:80: warning: cast from ‘char*’ to ‘const Vector*’ increases required alignment of target type [-Wcast-align]
+  return *(const Vector*)( (char*)m_pTangentT + iVertex * m_VertexSize_TangentT );
+                                                                                ^
+../public/materialsystem/meshreader.h: In member function ‘float CMeshReader::BoneWeight(int) const’:
+../public/materialsystem/meshreader.h:257:80: warning: cast from ‘char*’ to ‘float*’ increases required alignment of target type [-Wcast-align]
+  float *p = (float*)( (char*)m_pBoneWeight + iVertex * m_VertexSize_BoneWeight );
+                                                                                ^
+In file included from ../tier2/renderutils.cpp:11:
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Reset()’:
+../public/materialsystem/imesh.h:971:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+  for ( int i = 0; i < NELEMS( m_pCurrTexCoord ); i++ )
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::FastVertexSSE(const ModelVertexDX7_t&)’:
+../public/materialsystem/imesh.h:1246:36: warning: cast from ‘const char*’ to ‘float*’ increases required alignment of target type [-Wcast-align]
+  __m128 m1 = _mm_load_ps( (float *)pRead );
+                                    ^~~~~
+../public/materialsystem/imesh.h:1249:26: warning: cast from ‘char*’ to ‘float*’ increases required alignment of target type [-Wcast-align]
+  _mm_stream_ps( (float *)pCurrPos, m1 );
+                          ^~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Color3f(float, float, float)’:
+../public/materialsystem/imesh.h:1810:9: warning: cast from ‘unsigned char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)m_pCurrColor = col;
+         ^~~~~~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Color3fv(const float*)’:
+../public/materialsystem/imesh.h:1826:9: warning: cast from ‘unsigned char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)m_pCurrColor = col;
+         ^~~~~~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Color4f(float, float, float, float)’:
+../public/materialsystem/imesh.h:1841:9: warning: cast from ‘unsigned char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)m_pCurrColor = col;
+         ^~~~~~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Color4fv(const float*)’:
+../public/materialsystem/imesh.h:1857:9: warning: cast from ‘unsigned char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)m_pCurrColor = col;
+         ^~~~~~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Color3ub(unsigned char, unsigned char, unsigned char)’:
+../public/materialsystem/imesh.h:1876:9: warning: cast from ‘unsigned char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)m_pCurrColor = col;
+         ^~~~~~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Color3ubv(const unsigned char*)’:
+../public/materialsystem/imesh.h:1889:9: warning: cast from ‘unsigned char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)m_pCurrColor = col;
+         ^~~~~~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Color4ub(unsigned char, unsigned char, unsigned char, unsigned char)’:
+../public/materialsystem/imesh.h:1901:9: warning: cast from ‘unsigned char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)m_pCurrColor = col;
+         ^~~~~~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Color4ubv(const unsigned char*)’:
+../public/materialsystem/imesh.h:1913:9: warning: cast from ‘unsigned char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)m_pCurrColor = col;
+         ^~~~~~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Specular3f(float, float, float)’:
+../public/materialsystem/imesh.h:1929:9: warning: cast from ‘unsigned char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)pSpecular = col;
+         ^~~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Specular3fv(const float*)’:
+../public/materialsystem/imesh.h:1946:9: warning: cast from ‘unsigned char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)pSpecular = col;
+         ^~~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Specular4f(float, float, float, float)’:
+../public/materialsystem/imesh.h:1962:9: warning: cast from ‘unsigned char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)pSpecular = col;
+         ^~~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Specular4fv(const float*)’:
+../public/materialsystem/imesh.h:1979:9: warning: cast from ‘unsigned char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)pSpecular = col;
+         ^~~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Specular3ub(unsigned char, unsigned char, unsigned char)’:
+../public/materialsystem/imesh.h:1993:9: warning: cast from ‘unsigned char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)pSpecular = col;
+         ^~~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Specular3ubv(const unsigned char*)’:
+../public/materialsystem/imesh.h:2007:9: warning: cast from ‘unsigned char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)pSpecular = col;
+         ^~~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Specular4ub(unsigned char, unsigned char, unsigned char, unsigned char)’:
+../public/materialsystem/imesh.h:2021:9: warning: cast from ‘unsigned char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)pSpecular = col;
+         ^~~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CVertexBuilder::Specular4ubv(const unsigned char*)’:
+../public/materialsystem/imesh.h:2035:9: warning: cast from ‘unsigned char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)pSpecular = col;
+         ^~~~~~~~~
+../public/materialsystem/imesh.h: In constructor ‘CIndexBuilder::CIndexBuilder()’:
+../public/materialsystem/imesh.h:2491:15: warning: ‘CIndexBuilder::m_nCurrentIndex’ will be initialized after [-Wreorder]
+  mutable int  m_nCurrentIndex;
+               ^~~~~~~~~~~~~~~
+../public/materialsystem/imesh.h:2482:9: warning:   ‘int CIndexBuilder::m_nMaxIndexCount’ [-Wreorder]
+  int    m_nMaxIndexCount;
+         ^~~~~~~~~~~~~~~~
+../public/materialsystem/imesh.h:2514:8: warning:   when initialized here [-Wreorder]
+ inline CIndexBuilder::CIndexBuilder() : m_pIndexBuffer(0), m_nIndexCount(0),
+        ^~~~~~~~~~~~~
+../public/materialsystem/imesh.h: In member function ‘void CIndexBuilder::FastIndex2(short unsigned int, short unsigned int)’:
+../public/materialsystem/imesh.h:2990:40: warning: cast from ‘short unsigned int*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+  *(int*)( &m_pIndices[m_nCurrentIndex] ) = nIndices;
+                                        ^
+In file included from ../tier2/renderutils.cpp:13:
+../public/tier0/vprof.h: In constructor ‘CVProfNode::CVProfNode(const tchar*, int, CVProfNode*, const tchar*, int)’:
+../public/tier0/vprof.h:390:11: warning: ‘CVProfNode::m_nPrevFrameCalls’ will be initialized after [-Wreorder]
+  unsigned m_nPrevFrameCalls;
+           ^~~~~~~~~~~~~~~~~
+../public/tier0/vprof.h:385:8: warning:   ‘int CVProfNode::m_nRecursions’ [-Wreorder]
+  int   m_nRecursions;
+        ^~~~~~~~~~~~~
+../public/tier0/vprof.h:778:8: warning:   when initialized here [-Wreorder]
+ inline CVProfNode::CVProfNode( const tchar * pszName, int detailLevel, CVProfNode *pParent, const tchar *pBudgetGroupName, int budgetFlags )
+        ^~~~~~~~~~
+In file included from ../public/togl/rendermechanism.h:52,
+                 from ../tier2/renderutils.cpp:15:
+../public/togl/linuxwin/dxabstract.h: In static member function ‘static bool RenderTargetState_t::LessFunc(const RenderTargetState_t&, const RenderTargetState_t&)’:
+../public/togl/linuxwin/dxabstract.h:377:70: warning: cast from ‘CGLMTex* const*’ to ‘const uint64*’ {aka ‘const long long unsigned int*’} increases required alignment of target type [-Wcast-align]
+   uint64 lhs0 = reinterpret_cast<const uint64 *>(lhs.m_pRenderTargets)[0];
+                                                                      ^
+../public/togl/linuxwin/dxabstract.h:378:70: warning: cast from ‘CGLMTex* const*’ to ‘const uint64*’ {aka ‘const long long unsigned int*’} increases required alignment of target type [-Wcast-align]
+   uint64 rhs0 = reinterpret_cast<const uint64 *>(rhs.m_pRenderTargets)[0];
+                                                                      ^
+../public/togl/linuxwin/dxabstract.h:383:71: warning: cast from ‘CGLMTex* const*’ to ‘const uint64*’ {aka ‘const long long unsigned int*’} increases required alignment of target type [-Wcast-align]
+    uint64 lhs1 = reinterpret_cast<const uint64 *>(lhs.m_pRenderTargets)[1];
+                                                                       ^
+../public/togl/linuxwin/dxabstract.h:384:71: warning: cast from ‘CGLMTex* const*’ to ‘const uint64*’ {aka ‘const long long unsigned int*’} increases required alignment of target type [-Wcast-align]
+    uint64 rhs1 = reinterpret_cast<const uint64 *>(rhs.m_pRenderTargets)[1];
+                                                                       ^
+
+Waf: Leaving directory `/home/pi/Downloads/source-engine/build'
 Build failed
  -> task in 'tier2' failed with exit status 1: 
-	{task 3035568304L: cxx tier2.cpp -> tier2.cpp.33.o}
+	{task 3036261488L: cxx tier2.cpp -> tier2.cpp.33.o}
 ['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wall', '-fdiagnostics-color=always', '-Wcast-align', '-Wuninitialized', '-Winit-self', '-Wstrict-aliasing', '-faligned-new', '-Itier2', '-I../tier2', '-Icommon', '-I../common', '-Ipublic', '-I../public', '-Ipublic/tier0', '-I../public/tier0', '-Ipublic/tier1', '-I../public/tier1', '-Ipublic/tier2', '-I../public/tier2', '-I/usr/local/include/SDL2', '-I/opt/vc/include', '-I/opt/vc/include/interface/vcos/pthreads', '-I/opt/vc/include/interface/vmcs_host/linux', '-I../common', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-DHAVE_SDL2=1', '-DHAVE_FT2=1', '-DHAVE_FC=1', '-DHAVE_OPENAL=1', '-DHAVE_JPEG=1', '-DHAVE_PNG=1', '-DHAVE_CURL=1', '-DHAVE_ZLIB=1', '../tier2/tier2.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/tier2/tier2.cpp.33.o']
  -> task in 'tier2' failed with exit status 1: 
-	{task 3035567792L: cxx MaterialSystemUtil.cpp -> MaterialSystemUtil.cpp.33.o}
+	{task 3036261040L: cxx MaterialSystemUtil.cpp -> MaterialSystemUtil.cpp.33.o}
 ['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wall', '-fdiagnostics-color=always', '-Wcast-align', '-Wuninitialized', '-Winit-self', '-Wstrict-aliasing', '-faligned-new', '-Itier2', '-I../tier2', '-Icommon', '-I../common', '-Ipublic', '-I../public', '-Ipublic/tier0', '-I../public/tier0', '-Ipublic/tier1', '-I../public/tier1', '-Ipublic/tier2', '-I../public/tier2', '-I/usr/local/include/SDL2', '-I/opt/vc/include', '-I/opt/vc/include/interface/vcos/pthreads', '-I/opt/vc/include/interface/vmcs_host/linux', '-I../common', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-DHAVE_SDL2=1', '-DHAVE_FT2=1', '-DHAVE_FC=1', '-DHAVE_OPENAL=1', '-DHAVE_JPEG=1', '-DHAVE_PNG=1', '-DHAVE_CURL=1', '-DHAVE_ZLIB=1', '../public/materialsystem/MaterialSystemUtil.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/public/materialsystem/MaterialSystemUtil.cpp.33.o']
  -> task in 'tier2' failed with exit status 1: 
-	{task 3035567472L: cxx beamsegdraw.cpp -> beamsegdraw.cpp.33.o}
-['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wall', '-fdiagnostics-color=always', '-Wcast-align', '-Wuninitialized', '-Winit-self', '-Wstrict-aliasing', '-faligned-new', '-Itier2', '-I../tier2', '-Icommon', '-I../common', '-Ipublic', '-I../public', '-Ipublic/tier0', '-I../public/tier0', '-Ipublic/tier1', '-I../public/tier1', '-Ipublic/tier2', '-I../public/tier2', '-I/usr/local/include/SDL2', '-I/opt/vc/include', '-I/opt/vc/include/interface/vcos/pthreads', '-I/opt/vc/include/interface/vmcs_host/linux', '-I../common', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-DHAVE_SDL2=1', '-DHAVE_FT2=1', '-DHAVE_FC=1', '-DHAVE_OPENAL=1', '-DHAVE_JPEG=1', '-DHAVE_PNG=1', '-DHAVE_CURL=1', '-DHAVE_ZLIB=1', '../tier2/beamsegdraw.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/tier2/beamsegdraw.cpp.33.o']
- -> task in 'tier2' failed with exit status 1: 
-	{task 3035568112L: cxx renderutils.cpp -> renderutils.cpp.33.o}
+	{task 3036261296L: cxx renderutils.cpp -> renderutils.cpp.33.o}
 ['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wall', '-fdiagnostics-color=always', '-Wcast-align', '-Wuninitialized', '-Winit-self', '-Wstrict-aliasing', '-faligned-new', '-Itier2', '-I../tier2', '-Icommon', '-I../common', '-Ipublic', '-I../public', '-Ipublic/tier0', '-I../public/tier0', '-Ipublic/tier1', '-I../public/tier1', '-Ipublic/tier2', '-I../public/tier2', '-I/usr/local/include/SDL2', '-I/opt/vc/include', '-I/opt/vc/include/interface/vcos/pthreads', '-I/opt/vc/include/interface/vmcs_host/linux', '-I../common', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-DHAVE_SDL2=1', '-DHAVE_FT2=1', '-DHAVE_FC=1', '-DHAVE_OPENAL=1', '-DHAVE_JPEG=1', '-DHAVE_PNG=1', '-DHAVE_CURL=1', '-DHAVE_ZLIB=1', '../tier2/renderutils.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/tier2/renderutils.cpp.33.o']
