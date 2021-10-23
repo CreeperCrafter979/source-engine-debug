@@ -1,4 +1,4 @@
-# project source-engine (1.0) configured on Wed Oct 20 19:39:22 2021 by
+# project source-engine (1.0) configured on Sat Oct 23 12:12:16 2021 by
 # waf 2.0.22 (abi 20, python 20710f0 on linux2)
 # using ./waf configure -T debug
 #
@@ -899,9 +899,9 @@ find program=['git'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/
 -------------------------------------------------------
 Checking git hash
 ['/usr/bin/git', 'describe', '--dirty', '--always']
-out: cb04a1e4
+out: 6e5ef80
 
-cb04a1e4
+6e5ef80
 -------------------------------------------------------
 Checking for program 'strip'
 /usr/bin/strip
@@ -960,25 +960,25 @@ yes
 Checking supported flags for g++ in parallel
 started
 -------------------------------------------------------
-... -faligned-new
+... -Winit-self
 yes
 -------------------------------------------------------
 ... -Wstrict-aliasing
 yes
 -------------------------------------------------------
-... -Winit-self
+... -Wuninitialized
 yes
 -------------------------------------------------------
-... -Wuninitialized
+... -faligned-new
 yes
 -------------------------------------------------------
 ... -fdiagnostics-color=always
 yes
 -------------------------------------------------------
-... -Wall
+... -Wcast-align
 yes
 -------------------------------------------------------
-... -Wcast-align
+... -Wall
 yes
 ==>
 
@@ -990,7 +990,7 @@ int main(int argc, char **argv) {
 <==
 [1/1] Compiling [32mbuild/.conf_check_a45c1a13873b379e3c68ad141b7fc40b/test.cpp[0m
 
-['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wall', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_FALIGNED_NEW=1', '-D_WSTRICT_ALIASING=1', '-D_WINIT_SELF=1', '-D_WUNINITIALIZED=1', '../test.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_a45c1a13873b379e3c68ad141b7fc40b/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wall', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_WINIT_SELF=1', '-D_WSTRICT_ALIASING=1', '-D_WUNINITIALIZED=1', '-D_FALIGNED_NEW=1', '../test.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_a45c1a13873b379e3c68ad141b7fc40b/testbuild/test.cpp.1.o']
 ==>
 
 int main(int argc, char **argv) {
@@ -1001,7 +1001,7 @@ int main(int argc, char **argv) {
 <==
 [1/1] Compiling [32mbuild/.conf_check_0417ec3ec07fa512b5984400e2ac5b93/test.cpp[0m
 
-['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-fdiagnostics-color=always', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_FALIGNED_NEW=1', '../test.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_0417ec3ec07fa512b5984400e2ac5b93/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-fdiagnostics-color=always', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_WINIT_SELF=1', '-D_WSTRICT_ALIASING=1', '../test.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_0417ec3ec07fa512b5984400e2ac5b93/testbuild/test.cpp.1.o']
 ==>
 
 int main(int argc, char **argv) {
@@ -1012,7 +1012,7 @@ int main(int argc, char **argv) {
 <==
 [1/1] Compiling [32mbuild/.conf_check_49b6414728a8f17e23d8299ce97fc224/test.cpp[0m
 
-['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wcast-align', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_FALIGNED_NEW=1', '-D_WSTRICT_ALIASING=1', '-D_WINIT_SELF=1', '-D_WUNINITIALIZED=1', '../test.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_49b6414728a8f17e23d8299ce97fc224/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-std=c++11', '-fpermissive', '-Wcast-align', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_WINIT_SELF=1', '-D_WSTRICT_ALIASING=1', '-D_WUNINITIALIZED=1', '../test.cpp', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_49b6414728a8f17e23d8299ce97fc224/testbuild/test.cpp.1.o']
 ==>
 
 int main(int argc, char **argv) {
@@ -1063,9 +1063,6 @@ all ok
 -------------------------------------------------------
 Checking supported flags for gcc in parallel
 started
--------------------------------------------------------
-... -Wcast-align
-yes
 ==>
 
 int main(int argc, char **argv) {
@@ -1081,13 +1078,16 @@ err: cc1: error: command line option ‘-faligned-new=1’ is valid for C++/ObjC
 cc1: all warnings being treated as errors
 
 -------------------------------------------------------
-... -Wuninitialized
+... -Winit-self
+yes
+-------------------------------------------------------
+... -Wcast-align
 yes
 -------------------------------------------------------
 ... -faligned-new
 no
 -------------------------------------------------------
-... -Wall
+... -Wstrict-aliasing
 yes
 ==>
 
@@ -1099,20 +1099,20 @@ int main(int argc, char **argv) {
 <==
 [1/1] Compiling [32mbuild/.conf_check_f07b865193e92ab9a05831ffc54dd323/test.c[0m
 
-['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-fnonconst-initializers', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_WCAST_ALIGN=1', '-D_WUNINITIALIZED=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_f07b865193e92ab9a05831ffc54dd323/testbuild/test.c.1.o']
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-fnonconst-initializers', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_WINIT_SELF=1', '-D_WCAST_ALIGN=1', '-D_WSTRICT_ALIASING=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_f07b865193e92ab9a05831ffc54dd323/testbuild/test.c.1.o']
 err: gcc: error: unrecognized command line option ‘-fnonconst-initializers’; did you mean ‘-Wno-uninitialized’?
 
 -------------------------------------------------------
 ... -fnonconst-initializers
 no
 -------------------------------------------------------
-... -Wstrict-aliasing
-yes
--------------------------------------------------------
-... -Winit-self
-yes
--------------------------------------------------------
 ... -fdiagnostics-color=always
+yes
+-------------------------------------------------------
+... -Wall
+yes
+-------------------------------------------------------
+... -Wuninitialized
 yes
 ==>
 
@@ -1124,7 +1124,7 @@ int main(int argc, char **argv) {
 <==
 [1/1] Compiling [32mbuild/.conf_check_4395aac7cf6732a7ab93a886aa1125fe/test.c[0m
 
-['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Wall', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_4395aac7cf6732a7ab93a886aa1125fe/testbuild/test.c.1.o']
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Wall', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_WINIT_SELF=1', '-D_WCAST_ALIGN=1', '-D_WSTRICT_ALIASING=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_4395aac7cf6732a7ab93a886aa1125fe/testbuild/test.c.1.o']
 ==>
 
 int main(int argc, char **argv) {
@@ -1135,7 +1135,7 @@ int main(int argc, char **argv) {
 <==
 [1/1] Compiling [32mbuild/.conf_check_302adcb69d2e4bb32fde019dc84de881/test.c[0m
 
-['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-fdiagnostics-color=always', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_WCAST_ALIGN=1', '-D_WUNINITIALIZED=1', '-D_WALL=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_302adcb69d2e4bb32fde019dc84de881/testbuild/test.c.1.o']
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-fdiagnostics-color=always', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_WINIT_SELF=1', '-D_WCAST_ALIGN=1', '-D_WSTRICT_ALIASING=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_302adcb69d2e4bb32fde019dc84de881/testbuild/test.c.1.o']
 ==>
 
 int main(int argc, char **argv) {
@@ -1157,7 +1157,7 @@ int main(int argc, char **argv) {
 <==
 [1/1] Compiling [32mbuild/.conf_check_82bf1e23529cc06d4a2dfcd6da8071b7/test.c[0m
 
-['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Wuninitialized', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_82bf1e23529cc06d4a2dfcd6da8071b7/testbuild/test.c.1.o']
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Wuninitialized', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_WINIT_SELF=1', '-D_WCAST_ALIGN=1', '-D_WSTRICT_ALIASING=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_82bf1e23529cc06d4a2dfcd6da8071b7/testbuild/test.c.1.o']
 ==>
 
 int main(int argc, char **argv) {
@@ -1168,7 +1168,7 @@ int main(int argc, char **argv) {
 <==
 [1/1] Compiling [32mbuild/.conf_check_48093ae46e7d5260442cdd7d85b07b0f/test.c[0m
 
-['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Winit-self', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_WCAST_ALIGN=1', '-D_WUNINITIALIZED=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_48093ae46e7d5260442cdd7d85b07b0f/testbuild/test.c.1.o']
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Winit-self', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_48093ae46e7d5260442cdd7d85b07b0f/testbuild/test.c.1.o']
 ==>
 
 int main(int argc, char **argv) {
@@ -1179,7 +1179,7 @@ int main(int argc, char **argv) {
 <==
 [1/1] Compiling [32mbuild/.conf_check_8fa093db8ffc1a2a8fd88a326b5d9215/test.c[0m
 
-['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Wstrict-aliasing', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '-D_WCAST_ALIGN=1', '-D_WUNINITIALIZED=1', '-D_WALL=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_8fa093db8ffc1a2a8fd88a326b5d9215/testbuild/test.c.1.o']
+['/usr/bin/gcc', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Wstrict-aliasing', '-g', '-fvisibility=hidden', '-O0', '-fPIC', '-mfpu=neon', '-fsigned-char', '-Werror', '-DDX_TO_GL_ABSTRACTION', '-DGL_GLEXT_PROTOTYPES', '-DBINK_VIDEO', '-DUSE_SDL=1', '-D_GLIBCXX_USE_CXX11_ABI=0', '-DLINUX=1', '-D_LINUX=1', '-DPOSIX=1', '-D_POSIX=1', '-DGNUC', '-DNO_HOOK_MALLOC', '-D_DLL_EXT=.so', '-DNDEBUG', '-DCOMPILER_GCC=1', '../test.c', '-c', '-o/home/pi/Downloads/source-engine/build/.conf_check_8fa093db8ffc1a2a8fd88a326b5d9215/testbuild/test.c.1.o']
 from /home/pi/Downloads/source-engine: Test does not build: Traceback (most recent call last):
   File "/home/pi/Downloads/source-engine/.waf-2.0.22-a21fa92a45548e4c642deabae50eb159/waflib/Configure.py", line 606, in run_build
     bld.compile()
@@ -1322,19 +1322,7 @@ int main(int argc, char **argv) {
 [2/2] Linking [33mbuild/.conf_check_4e3fe813488acc8a788be8148fd35bed/testbuild/testprog[0m
 
 ['/usr/bin/gcc', '-Wl,--no-undefined', '-fPIC', '-mfpu=neon', '-fsigned-char', '-pthread', 'test.c.1.o', '-o/home/pi/Downloads/source-engine/build/.conf_check_4e3fe813488acc8a788be8148fd35bed/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lbz2']
-err: /usr/bin/ld: cannot find -lbz2
-collect2: error: ld returned 1 exit status
-
-from /home/pi/Downloads/source-engine: Test does not build: Traceback (most recent call last):
-  File "/home/pi/Downloads/source-engine/.waf-2.0.22-a21fa92a45548e4c642deabae50eb159/waflib/Configure.py", line 606, in run_build
-    bld.compile()
-  File "/home/pi/Downloads/source-engine/.waf-2.0.22-a21fa92a45548e4c642deabae50eb159/waflib/Build.py", line 359, in compile
-    raise Errors.BuildError(self.producer.error)
-BuildError: Build failed
- -> task in 'testprog' failed with exit status 1 (run with -v to display more information)
-
-not found
-from /home/pi/Downloads/source-engine: The configuration failed
+yes
 -------------------------------------------------------
 Checking for library rt
 ==>
